@@ -1,0 +1,1061 @@
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T00:55:29.289Z",
+  "data": {
+    "worldSet": "丧尸末日",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "几乎无意识或生命垂危的生物，包括新生儿、重伤者或已关闭的机器。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "具有基本意识但威胁极小的普通个体或生物，如平民、小动物或简单无人机。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的行动者",
+        "description": "具备训练技能或增强本能的生物，能够应对中等威胁，如士兵、掠食者或侦察无人机。"
+      },
+      {
+        "level": 3,
+        "name": "精英有机体",
+        "description": "达到有机体巅峰表现的个体，如顶级运动员、强化动物或具备特殊能力的特种部队。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "通过变异、魔法或先进技术超越自然极限的生命形式，如低阶超人类、突变体或施法者。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能够改变战场动态或控制大规模区域的生物，如城市级威胁或高阶行动者。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "强大到足以操纵生态系统、能量或指挥军队的实体，如蜂巢女王、高阶法师或战术AI核心。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "其行为能影响行星系统、政治力量或生态平衡的存在，如军阀、行星级AI或巨型野兽。"
+      },
+      {
+        "level": 8,
+        "name": "恒星实体",
+        "description": "能够操纵恒星级能量并在星际间自由移动的实体，如星神、太阳锻造者或深空霸主。"
+      },
+      {
+        "level": 9,
+        "name": "银河建筑师",
+        "description": "能够构建、重塑或抹去银河级结构或文明的实体，如银河意识、远古先驱者。"
+      },
+      {
+        "level": 10,
+        "name": "概念神",
+        "description": "能够操纵现实、自然法则或形而上学构造的抽象存在，如时间之神、宇宙意识或熵的化身。"
+      }
+    ],
+    "playerBackground": "瘦弱程序员在丧尸末日中幸存下来，凭借其编程技能和对技术的理解，逐渐发现丧尸病毒的起源可能与某个失控的AI实验有关。他利用废弃的电子设备和有限的资源，尝试破解病毒的源代码，寻找逆转丧尸化的方法。在逃亡过程中，他结识了其他幸存者，组建了一个小型技术团队，致力于对抗丧尸威胁并揭露背后的阴谋。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T00:56:30.184Z",
+  "data": {
+    "playerInfo": {
+      "name": "陈墨",
+      "gender": "男",
+      "age": 29,
+      "background": "瘦弱程序员在丧尸末日中幸存下来，凭借其编程技能和对技术的理解，逐渐发现丧尸病毒的起源可能与某个失控的AI实验有关。他利用废弃的电子设备和有限的资源，尝试破解病毒的源代码，寻找逆转丧尸化的方法。在逃亡过程中，他结识了其他幸存者，组建了一个小型技术团队，致力于对抗丧尸威胁并揭露背后的阴谋。",
+      "appearance": "身材瘦削，戴黑框眼镜，穿着沾满油污的连帽衫，手指有长期敲击键盘形成的薄茧，眼神疲惫但透着技术人员的专注",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "电子设备专家",
+        "病毒源码分析",
+        "体能低下",
+        "逻辑思维强",
+        "技术团队领袖"
+      ],
+      "luck": 0.65
+    },
+    "playerEquipment": [
+      {
+        "name": "改装军用笔记本",
+        "type": "StoryItem",
+        "description": "用汽车电瓶供电的加固笔记本，储存着病毒代码片段和实验数据，关键研究工具"
+      },
+      {
+        "name": "信号嗅探器",
+        "type": "Equipment",
+        "description": "自制的射频检测装置，能捕捉异常电子信号，追踪病毒传播源"
+      },
+      {
+        "name": "肾上腺素注射笔",
+        "type": "Consumable",
+        "description": "紧急时提升反应速度，代价是后续剧烈头痛"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "废弃数据中心地下室",
+        "description": "曾是科技公司的灾备中心，现在成了你的秘密据点。服务器机柜被改造成防御工事，监控屏幕上跳动着病毒代码分析进度",
+        "time": "凌晨03:17",
+        "weather": "暴雨",
+        "terrain": "封闭室内",
+        "plot": "病毒溯源程序即将完成时，监控警报响起——未知信号源正在激活休眠的丧尸。必须在电力耗尽前获取关键数据，同时抵抗入侵",
+        "interactiveItems": [
+          {
+            "name": "应急电源箱",
+            "type": "Equipment",
+            "description": "接有太阳能板的蓄电池组，可延长设备运行20分钟"
+          },
+          {
+            "name": "服务器日志磁带",
+            "type": "StoryItem",
+            "description": "记录着病毒爆发前72小时的关键实验数据"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "技术丧尸A",
+            "gender": "男",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "穿着残破的实验室白袍，颈部插着数据线，眼球泛着机械红光",
+            "behavior": "Hostile",
+            "description": "被病毒改造的工程师，对电子信号异常敏感",
+            "lifeFormLevel": 3,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "通风管道潜伏者",
+            "gender": "未知",
+            "age": 0,
+            "type": "Unknown",
+            "fate": 0.4,
+            "appearance": "只听见金属刮擦声",
+            "behavior": "未知",
+            "description": "受异常信号吸引的变异体",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T01:00:59.984Z",
+  "data": {
+    "worldSet": "丧尸末日是一个被病毒肆虐后的世界，人类社会几乎崩溃，幸存者在废墟中挣扎求生。病毒不仅将人类转化为丧尸，还催生了各种变异生物和超自然现象。世界的基础科学法则被扭曲，病毒似乎具有某种未知的智能或超自然属性，能够根据宿主的基因和环境产生不同的变异。历史可以分为几个关键时期：病毒爆发前的和平时代、大崩溃时期的混乱、新秩序的重建尝试，以及当前的生存战争。社会结构已经瓦解，取而代之的是各种幸存者营地、军阀割据和秘密组织。经济以物物交换为主，科技倒退但某些前文明的遗迹仍被少数人掌握。宗教和迷信盛行，许多人将病毒的爆发视为神罚或新纪元的开始。文化上，生存至上，道德界限模糊，语言中混杂了大量末世俚语和军事术语。",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "包括刚转化的丧尸、重伤的幸存者或即将报废的机器。它们在末世中几乎无法生存。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "普通的丧尸或未受训练的幸存者，具有基本的威胁性但容易被对付。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的个体",
+        "description": "经过训练的幸存者或某些变异丧尸，能够应对中等威胁。"
+      },
+      {
+        "level": 3,
+        "name": "精英有机体",
+        "description": "体能达到巅峰的幸存者或高级变异丧尸，具有更强的战斗能力。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "通过病毒变异获得超自然能力的个体，如能够控制其他丧尸的变异体。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能够改变战场局势的个体，如能够召唤丧尸群的变异体或强大的幸存者领袖。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "能够控制大片区域或指挥大量丧尸的个体，如丧尸女王或高级AI核心。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "影响整个星球生态或政治格局的存在，如病毒源头或全球性的AI网络。"
+      },
+      {
+        "level": 8,
+        "name": "恒星实体",
+        "description": "能够操纵恒星能量的存在，如外星病毒或超维生物。"
+      },
+      {
+        "level": 9,
+        "name": "银河建筑师",
+        "description": "能够重塑银河系的存在，如远古病毒文明或宇宙级AI。"
+      },
+      {
+        "level": 10,
+        "name": "概念神",
+        "description": "操纵现实法则的存在，如病毒的意识化身或宇宙熵的具现化。"
+      }
+    ],
+    "playerBackground": "瘦弱程序员在病毒爆发前是一名普通的软件工程师，擅长编写和破解代码。末世来临后，他发现自己对前文明的电子设备和网络系统有着独特的理解和操控能力。尽管体能不足，但他的技术才能使他在幸存者群体中显得尤为重要。他可能掌握着某些关键设施的密码，或是能够重启废弃的防御系统。他的背景故事可以包括在病毒爆发初期，他如何利用技术优势躲过最初的混乱，以及他如何在资源匮乏的环境中继续发挥自己的专长。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T01:02:48.513Z",
+  "data": {
+    "playerInfo": {
+      "name": "陈默",
+      "gender": "男",
+      "age": 29,
+      "background": "瘦弱程序员在病毒爆发前是一名普通的软件工程师，擅长编写和破解代码。末世来临后，他发现自己对前文明的电子设备和网络系统有着独特的理解和操控能力。尽管体能不足，但他的技术才能使他在幸存者群体中显得尤为重要。他可能掌握着某些关键设施的密码，或是能够重启废弃的防御系统。他的背景故事可以包括在病毒爆发初期，他如何利用技术优势躲过最初的混乱，以及他如何在资源匮乏的环境中继续发挥自己的专长。",
+      "appearance": "深陷的眼窝透着长期熬夜的痕迹，乱糟糟的头发下架着裂痕眼镜。不合身的防弹背心松垮地挂在瘦削的身板上，手指关节因常年敲代码而微微变形。",
+      "health": 100,
+      "lifeFormLevel": 3,
+      "tag": [
+        "电子设备专家",
+        "体能缺陷",
+        "系统破解者",
+        "机械维修"
+      ],
+      "luck": 0.6
+    },
+    "playerEquipment": [
+      {
+        "name": "改装军用平板",
+        "type": "Equipment",
+        "description": "太阳能充电的加固设备，存有病毒爆发前的城市电网地图和军事设施密码本，可破解低级加密系统"
+      },
+      {
+        "name": "特斯拉电击笔",
+        "type": "Equipment",
+        "description": "用实验室设备改造的防身武器，近距离释放高压电流但需冷却，对潮湿目标效果加倍"
+      },
+      {
+        "name": "血清注射器",
+        "type": "Consumable",
+        "description": "最后半管自制抗病毒血清，能延缓轻度感染症状12小时"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "第七研究所主控室",
+        "description": "布满弹孔的控制台闪烁着短路火花，防爆玻璃裂成蛛网状。你冒险潜入这个前政府病毒研究所，因为这里的主机可能存着军用避难所的坐标。腐臭味混合着臭氧味刺鼻难闻。",
+        "time": "黄昏",
+        "weather": "酸雨渐歇",
+        "terrain": "室内废墟",
+        "plot": "当破解进度到87%时，备用电源突然过载。黑暗中有黏腻的蠕动声逼近，主通风管传来金属扭曲的呻吟。你必须五分钟内恢复供电，否则隔离门将永久锁死。",
+        "interactiveItems": [
+          {
+            "name": "所长日志芯片",
+            "type": "StoryItem",
+            "description": "加密的语音记录，提及'灯塔计划'和地下庇护所密码"
+          },
+          {
+            "name": "应急电池组",
+            "type": "Consumable",
+            "description": "仅存32%电量的核燃料电池，可为关键设备供电十分钟"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "腐烂技工",
+            "gender": "男",
+            "age": 40,
+            "type": "Enemy",
+            "fate": 1,
+            "appearance": "半身卡在通风管道，工装裤上挂满生锈工具，左臂异化成金属探针",
+            "behavior": "Hostile",
+            "description": "生前负责维护研究所安防系统，病毒使其将活体视为'需要修理的故障设备'",
+            "lifeFormLevel": 2,
+            "health": 85,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "舔食者γ",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.7,
+            "appearance": "天花板上倒悬的惨白生物，舌骨进化为带倒刺的穿刺器",
+            "behavior": "Hostile",
+            "description": "实验室动物变异体，通过震动感知猎物，对电流异常敏感",
+            "lifeFormLevel": 4,
+            "health": 100,
+            "visibleToPlayer": false
+          },
+          {
+            "name": "幻影守卫",
+            "gender": "Unknown",
+            "age": 0,
+            "type": "Unknown",
+            "fate": 0.3,
+            "appearance": "半透明人形轮廓在监控屏间闪烁，伴随静电杂音",
+            "behavior": "Neutral",
+            "description": "由残存安防AI和死者神经脉冲形成的电子幽灵，可能提供线索或触发陷阱",
+            "lifeFormLevel": 5,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T01:07:12.219Z",
+  "data": {
+    "worldSet": "这是一个丧尸末日的世界，人类社会在病毒爆发后迅速崩溃。病毒最初是由一家名为‘黑日’的生物科技公司研发的生物武器，意外泄露后迅速蔓延全球。感染者会变成嗜血的丧尸，保留部分生前本能，但失去理智。世界陷入混乱，幸存者们在废墟中挣扎求生，形成了各种派系和势力。\n\n核心宇宙观：这个世界的基础是现实科学，但病毒的变异和感染者的进化引入了超自然元素。病毒不仅感染人类，还能使动物和植物发生变异，产生新的生命形式。\n\n历史时间线：\n1. 病毒爆发前：世界高度发达，科技繁荣，但社会矛盾尖锐。\n2. 病毒爆发：黑日公司的实验事故导致病毒泄露，全球感染率迅速攀升。\n3. 社会崩溃：政府瘫痪，军队溃散，城市沦为废墟。\n4. 幸存者时代：幸存者们结成派系，争夺资源，同时对抗丧尸和变异生物。\n\n社会结构：幸存者们形成了以武力为尊的部落制社会，强者统治弱者。资源匮乏导致掠夺和战争成为常态。宗教和迷信盛行，许多人将病毒视为神的惩罚或试炼。\n\n主要派系：\n1. 自由联盟：由前政府和军队人员组成，试图恢复秩序。\n2. 掠夺者：暴力团伙，以掠夺和奴役他人为生。\n3. 新教徒：宗教狂热分子，认为病毒是净化世界的工具。\n4. 变异者：被病毒改造但保留理智的人类，拥有超常能力。\n\n文化逻辑：生存至上，道德沦丧。科技和知识成为稀缺资源，掌握技术的人地位崇高。语言中混杂了大量末世俚语和黑话。\n\n一致性审查：病毒的超自然特性需要进一步解释，比如为何能跨越物种感染并引发变异。可以设定病毒含有未知外星基因片段，使其具备超常适应性。\n\n扩展钩子：\n1. 黑日公司的秘密实验室可能藏有病毒解药或更可怕的武器。\n2. 变异者中可能出现领袖，试图建立新秩序。\n3. 外星势力可能暗中观察或干预地球的末日进程。",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "包括垂死的幸存者、重伤的丧尸或即将崩溃的机器。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "普通幸存者、小型动物或基础丧尸，威胁性较低。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的个体",
+        "description": "经过训练的幸存者士兵、猎人或敏捷型丧尸，能应对中等威胁。"
+      },
+      {
+        "level": 3,
+        "name": "精英有机体",
+        "description": "体能达到巅峰的幸存者或变异丧尸，拥有特殊能力。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "突破自然极限的变异者或高级丧尸，具备超常力量或智慧。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能改变战场局势的变异生物或丧尸领主，控制大片区域。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "如丧尸女王或变异兽群首领，能操纵生态系统或指挥军团。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "如超级AI或巨型变异体，能影响整个星球的生态平衡。"
+      },
+      {
+        "level": 8,
+        "name": "恒星实体",
+        "description": "如外星观察者或星际病毒源，具备跨星际能力。"
+      },
+      {
+        "level": 9,
+        "name": "银河建筑师",
+        "description": "如上古文明或银河级AI，能重塑星系结构。"
+      },
+      {
+        "level": 10,
+        "name": "概念神",
+        "description": "如病毒本源或宇宙意识，操纵现实法则。"
+      }
+    ],
+    "playerBackground": "你曾是一名瘦弱的程序员，终日与代码为伴，缺乏体能训练。病毒爆发时，你侥幸躲过了第一波感染，但目睹了同事和亲人变成丧尸。孤独和恐惧驱使你在废墟中求生，逐渐学会了隐藏和躲避。你的编程技能在末世中变得无用武之地，但你敏锐的观察力和逻辑思维帮助你在危机四伏的环境中存活下来。内心深处，你渴望找到病毒的真相，或许还能挽回失去的一切。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T01:08:30.283Z",
+  "data": {
+    "playerInfo": {
+      "name": "李明",
+      "gender": "男",
+      "age": 32,
+      "background": "你曾是一名瘦弱的程序员，终日与代码为伴，缺乏体能训练。病毒爆发时，你侥幸躲过了第一波感染，但目睹了同事和亲人变成丧尸。孤独和恐惧驱使你在废墟中求生，逐渐学会了隐藏和躲避。你的编程技能在末世中变得无用武之地，但你敏锐的观察力和逻辑思维帮助你在危机四伏的环境中存活下来。内心深处，你渴望找到病毒的真相，或许还能挽回失去的一切。",
+      "appearance": "瘦弱的身材，戴着破损的眼镜，穿着沾满灰尘的旧T恤和牛仔裤，脸上有污垢和疲惫的痕迹，但眼神警觉而专注。",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "电脑专家",
+        "体能虚弱",
+        "观察敏锐"
+      ],
+      "luck": 0.6
+    },
+    "playerEquipment": [
+      {
+        "name": "生锈的匕首",
+        "type": "Equipment",
+        "description": "用于自卫或切割物品，在近距离搏斗中提供基本保护。"
+      },
+      {
+        "name": "破旧背包",
+        "type": "Equipment",
+        "description": "可携带少量生存物资，帮助你管理有限的资源。"
+      },
+      {
+        "name": "半瓶水",
+        "type": "Consumable",
+        "description": "饮用后恢复少量健康，缓解脱水状态。"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "废弃的办公楼",
+        "description": "这里是病毒爆发时你工作的科技公司办公室，现在沦为废墟。破碎的电脑屏幕和散落的文件覆盖着灰尘，墙壁上溅满干涸的血迹，空气中弥漫着腐臭。你藏身于此，试图躲避外界的威胁。",
+        "time": "黄昏",
+        "weather": "阴天",
+        "terrain": "城市废墟",
+        "plot": "你听到走廊尽头传来拖沓的脚步声和低吼，可能是丧尸在游荡。同时，你在桌脚下发现一张标记着'黑日公司实验室'的破旧地图，这或许是揭开病毒真相的关键。你需要决定是否探查声音来源或优先研究地图。",
+        "interactiveItems": [
+          {
+            "name": "破旧地图",
+            "type": "StoryItem",
+            "description": "标注了黑日公司秘密实验室的位置，可能指引你找到病毒起源或解药。"
+          },
+          {
+            "name": "急救包",
+            "type": "Consumable",
+            "description": "使用后可恢复健康，治疗轻微伤势。"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "丧尸A",
+            "gender": "其他",
+            "age": 35,
+            "type": "Enemy",
+            "fate": 0.8,
+            "appearance": "穿着破烂的西装，皮肤灰白腐烂，眼睛空洞，嘴角滴着暗红色液体。",
+            "behavior": "Hostile",
+            "description": "曾是该办公室的职员，感染后失去理智，只保留狩猎本能，对活物充满攻击性。",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T01:09:56.136Z",
+  "data": {
+    "successProbability": 0.75
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T01:12:14.455Z",
+  "data": {
+    "failureScene": [
+      {
+        "plot": "你屏住呼吸贴着墙移动，试图探查走廊尽头的声响来源。但体能虚弱的双腿突然抽筋，你失控撞上金属文件柜，刺耳的撞击声在死寂中炸开。三只穿着保安制服的丧尸从拐角冲出，腐烂的眼珠锁定你的位置。你狼狈翻滚躲过扑咬，背包却被撕开大口子，急救包和半袋压缩饼干散落一地。最壮的丧尸突然加速前冲——是变异种！利齿狠狠凿进你左臂，剧痛中你踹开它逃回房间，门外传来令人窒息的抓挠声。",
+        "newTag": [
+          "被咬",
+          "失血状态"
+        ],
+        "sceneId": 1,
+        "location": "办公室",
+        "description": "布满灰尘的破败办公室，文件散落一地，窗外透进昏黄的光线。铁皮柜倒在地上，门外的抓挠声持续不断。",
+        "time": "黄昏",
+        "weather": "阴",
+        "terrain": "城市废墟",
+        "rewardPool": [
+          {
+            "name": "变异丧尸情报",
+            "type": "Information",
+            "description": "发现具备加速能力的特殊变异体，攻击模式已记录",
+            "amount": 1
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "撕裂伤",
+            "type": "Health",
+            "description": "丧尸咬伤导致动脉破裂",
+            "amount": -35
+          },
+          {
+            "name": "军用急救包",
+            "type": "Consumable",
+            "description": "在逃跑过程中遗失",
+            "amount": 1
+          },
+          {
+            "name": "压缩饼干",
+            "type": "Consumable",
+            "description": "仅剩的半袋生存物资",
+            "amount": 1
+          }
+        ],
+        "interactiveItems": [],
+        "interactiveCreatures": [
+          {
+            "name": "变异保安丧尸A",
+            "gender": "Male",
+            "age": 40,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "左胸挂着腐烂的保安徽章，右臂异化成骨刃",
+            "behavior": "Hostile",
+            "description": "实验室安保人员变异体，保留部分格斗肌肉记忆",
+            "lifeFormLevel": 3,
+            "health": 100,
+            "visibleToPlayer": false
+          },
+          {
+            "name": "普通丧尸B",
+            "gender": "Female",
+            "age": 28,
+            "type": "Enemy",
+            "fate": 0.6,
+            "appearance": "穿着破碎的职业套裙，颈部有巨大咬痕",
+            "behavior": "Hostile",
+            "description": "普通办公楼感染者",
+            "lifeFormLevel": 1,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T01:26:34.628Z",
+  "data": {
+    "worldSet": "在丧尸末日的世界里，文明已经崩溃，人类社会退回到原始的生存状态。这场灾难源于一场失控的生物实验，病毒迅速蔓延，将大部分人类转化为无意识的丧尸。幸存者们在这片废土上挣扎求生，资源匮乏，道德沦丧。世界被划分为几个主要的区域：废弃的城市废墟、荒野中的幸存者营地、以及被强大势力控制的要塞。时间在这里失去了意义，每一天都是生存的挑战。",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "包括濒死的幸存者、新生儿或是即将崩溃的机器。他们在丧尸横行的世界中几乎无法生存。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "普通的幸存者或小型动物，具备基本的生存意识，但在丧尸面前几乎毫无抵抗力。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的战士",
+        "description": "经过训练的幸存者或猎食者，能够应对中等威胁的丧尸或敌对人类。"
+      },
+      {
+        "level": 3,
+        "name": "精英有机体",
+        "description": "体能达到巅峰的幸存者或变异动物，能够在恶劣环境中长期生存并领导小团队。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "通过病毒变异或科技改造获得超越常人能力的个体，如低阶超级人类或变异野兽。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能够改变战场局势或控制大片区域的强大存在，如高阶变异体或幸存者领袖。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "能够操纵生态系统或指挥军队的实体，如丧尸女王或战术AI核心。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "其行为能够影响整个星球生态或政治格局的存在，如丧尸病毒源头或巨型变异体。"
+      }
+    ],
+    "playerBackground": "瘦弱的程序员在灾难爆发前只是一个普通的码农，整天与电脑为伴，体能和生存技能几乎为零。病毒爆发时，他侥幸躲过了第一波感染，但很快发现自己在这个残酷的新世界中毫无优势。他的技术知识在废土上几乎无用，而瘦弱的身体让他难以与丧尸或其他幸存者对抗。然而，他的逻辑思维和问题解决能力或许是他唯一的生存希望。他必须学会适应，找到自己的价值，否则将很快被这个世界吞噬。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T01:28:34.916Z",
+  "data": {
+    "playerInfo": {
+      "name": "陈默",
+      "gender": "男",
+      "age": 28,
+      "background": "瘦弱的程序员在灾难爆发前只是一个普通的码农，整天与电脑为伴，体能和生存技能几乎为零。病毒爆发时，他侥幸躲过了第一波感染，但很快发现自己在这个残酷的新世界中毫无优势。他的技术知识在废土上几乎无用，而瘦弱的身体让他难以与丧尸或其他幸存者对抗。然而，他的逻辑思维和问题解决能力或许是他唯一的生存希望。他必须学会适应，找到自己的价值，否则将很快被这个世界吞噬。",
+      "appearance": "身材瘦削，戴着破碎的黑框眼镜，穿着沾满污渍的格子衬衫和磨破的牛仔裤。手臂有长期缺乏日照的苍白，手指残留敲键盘形成的老茧。",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "电脑专家",
+        "体能低下",
+        "逻辑思维强"
+      ],
+      "luck": 0.6
+    },
+    "playerEquipment": [
+      {
+        "name": "生锈的螺丝刀",
+        "type": "Equipment",
+        "description": "从办公桌翻出的简易武器，攻击力微弱但能暂时逼退丧尸"
+      },
+      {
+        "name": "半瓶浑浊的水",
+        "type": "Consumable",
+        "description": "维持基本生存的珍贵资源，喝完后空瓶可当容器"
+      },
+      {
+        "name": "损坏的智能手机",
+        "type": "StoryItem",
+        "description": "电池耗尽前最后截取的政府紧急广播，显示城西有幸存者据点坐标"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "废弃的写字楼办公室",
+        "description": "三十层高的写字楼在尸潮爆发后沦为死城，你藏身的办公室布满灰尘和干涸的血迹。隔间挡板倒伏在地，窗外传来持续不断的嘶吼声。三天前为赶项目熬夜加班让你意外躲过首波感染，但瓶装水和能量棒已耗尽。",
+        "time": "黄昏",
+        "weather": "阴霾笼罩",
+        "terrain": "室内废墟",
+        "plot": "通风管道突然传来金属扭曲声，必须在天黑前决定：从消防通道冒险突围，或尝试修复老式无线电呼叫救援。办公桌抽屉里半张染血的地图显示，地下车库可能有遗留物资。",
+        "interactiveItems": [
+          {
+            "name": "染血的地图碎片",
+            "type": "StoryItem",
+            "description": "标记着地下车库发电机房的位置，可能有备用电源"
+          },
+          {
+            "name": "消防斧",
+            "type": "Equipment",
+            "description": "嵌在承重柱上的重型武器，需要力量检定才能拔出"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "保安丧尸",
+            "gender": "男",
+            "age": 45,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "穿着破烂的保安制服，颈动脉被撕开大洞，左腿以反关节角度扭曲",
+            "behavior": "Hostile",
+            "description": "生前是大楼保安队长，病毒爆发时试图封锁楼层却遭感染",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "通风管道潜伏者",
+            "gender": "未知",
+            "age": 0,
+            "type": "Unknown",
+            "fate": 0.4,
+            "appearance": "仅能听见指甲刮擦金属管壁的声音",
+            "behavior": "Unknown",
+            "description": "未知生物，可能受病毒变异的啮齿动物或畸形幸存者",
+            "lifeFormLevel": 3,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T01:30:51.999Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T01:34:46.162Z",
+  "data": {
+    "successScene": [
+      {
+        "plot": "你成功抓起沉重的消防斧，金属手柄的冰冷触感让你稍感安心。就在这时，通风管道轰然破裂，一只穿着保安制服的丧尸裹着铁屑摔落地面。它脖颈扭曲成诡异角度，却仍嘶吼着扑来。你勉强挥斧格挡，斧刃卡进它肩胛骨时左臂传来撕裂剧痛——腐烂的指甲划开了三道血痕。剧痛中你想起通风系统结构图，猛地蹬翻档案柜将它压住，顺势拔斧劈碎了它的头颅。黑血喷溅在无线电设备上时，走廊突然传来密集脚步声，消防通道方向也响起抓挠金属的刺耳噪音。那张染血地图从震动的桌面滑落，地下车库的标记被你的血滴晕染开。",
+        "newTag": [
+          "电脑专家",
+          "体能低下",
+          "逻辑思维强",
+          "轻伤"
+        ],
+        "sceneId": 1,
+        "location": "办公室",
+        "description": "满是灰尘的办公室弥漫着血腥与铁锈味，通风管破口垂挂着电缆，电子钟定格在13:47。僵尸脑浆在监控屏幕上缓缓流淌，消防斧在荧光灯下泛着油光。",
+        "time": "黄昏",
+        "weather": "阴天",
+        "terrain": "城市废墟",
+        "rewardPool": [
+          {
+            "name": "消防斧",
+            "type": "Equipment",
+            "description": "重型近战武器，斧刃有轻微卷刃但足以劈开颅骨或破门",
+            "amount": 1
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "手臂抓伤",
+            "type": "Health",
+            "description": "丧尸指甲造成的撕裂伤，持续渗血且伴随灼痛感",
+            "amount": 15
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "老式无线电",
+            "type": "StoryItem",
+            "description": "沾满黑血的军用设备，麦克风线路裸露，修复需专业工具"
+          },
+          {
+            "name": "应急医药箱",
+            "type": "Consumable",
+            "description": "柜内翻出的铝制箱子，标签显示内含抗生素和绷带"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "丧尸A",
+            "gender": "Male",
+            "age": 35,
+            "type": "Enemy",
+            "fate": 0.2,
+            "appearance": "颈骨断裂的保安，制服肩章绣着'第三实验室'字样",
+            "behavior": "Hostile",
+            "description": "从通风管突袭的变异体，指甲残留新鲜皮肉组织",
+            "lifeFormLevel": 2,
+            "health": 0,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "丧尸B",
+            "gender": "Unknown",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "仅能从门缝瞥见腐烂的手指",
+            "behavior": "Hostile",
+            "description": "被血腥味吸引的游荡者，正撞击消防通道铁门",
+            "lifeFormLevel": 1,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ],
+    "failureScene": []
+  }
+}
+---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T08:18:15.347Z",
+  "data": {
+    "worldSet": "The world is a post-apocalyptic wasteland ravaged by a zombie virus that emerged from a failed biotech experiment. The virus, known as 'Necro-X,' reanimates the dead and mutates the living, creating a hierarchy of undead and hybrid creatures. The core cosmology is grounded in a twisted version of biological science, where the virus alters DNA and neural pathways, allowing some entities to develop supernatural abilities. The historical timeline is marked by the 'Fall,' the initial outbreak that collapsed governments and civilizations within months. Survivors now live in scattered enclaves, fortified cities, or nomadic tribes. Societal structures are fractured, with power concentrated in the hands of warlords, scientists, and religious cults who claim to understand the virus. Key factions include the 'Purifiers,' a militant group seeking to eradicate all infected; the 'Ascendants,' a cult that worships the virus as a path to evolution; and the 'Remnant,' a coalition of scientists and engineers trying to reverse the outbreak. Cultural logic revolves around survival at all costs, with taboos including reckless experimentation with the virus and betrayal of one's enclave. Technologies are a mix of scavenged pre-Fall tech and crude innovations, while philosophies range from nihilism to fanatical hope in a cure.",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "Fragile Life",
+        "description": "Newly turned zombies or severely wounded survivors, barely functional and easily dispatched."
+      },
+      {
+        "level": 1,
+        "name": "Common Entity",
+        "description": "Basic zombies or unarmed civilians, posing minimal threat individually but dangerous in hordes."
+      },
+      {
+        "level": 2,
+        "name": "Trained Operative",
+        "description": "Survivors with combat training or enhanced zombies with rudimentary pack tactics."
+      },
+      {
+        "level": 3,
+        "name": "Elite Organic",
+        "description": "Special forces survivors or mutated zombies with heightened speed and strength."
+      },
+      {
+        "level": 4,
+        "name": "Supernatural Threshold",
+        "description": "Mutants with viral-enhanced abilities like regeneration or psychic resonance."
+      },
+      {
+        "level": 5,
+        "name": "Area Influencer",
+        "description": "Hive-mind zombies or warlords with control over large survivor groups."
+      },
+      {
+        "level": 6,
+        "name": "Domain Controller",
+        "description": "Mutant overlords or AI systems managing fortified cities or zombie hordes."
+      },
+      {
+        "level": 7,
+        "name": "Planet-Level Being",
+        "description": "Rogue AI networks or viral entities capable of global-scale manipulation."
+      }
+    ],
+    "playerBackground": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity."
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T08:20:28.424Z",
+  "data": {
+    "playerInfo": {
+      "name": "Morgan",
+      "gender": "Non-binary",
+      "age": 28,
+      "background": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity.",
+      "appearance": "Gaunt frame with sunken eyes, wearing cracked glasses and a frayed hoodie. Pale skin from years indoors, carrying a backpack jury-rigged with server cooling fans.",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "tech expert",
+        "physically weak",
+        "surveillance hacker"
+      ],
+      "luck": 0.65
+    },
+    "playerEquipment": [
+      {
+        "name": "Hacked Datapad",
+        "type": "Equipment",
+        "description": "Salvaged tablet modified to access pre-Fall security networks. Battery lasts 4 hours."
+      },
+      {
+        "name": "Shock Rod",
+        "type": "Equipment",
+        "description": "Server rack conduit pipe with exposed wiring. Delivers painful but non-lethal jolts to attackers."
+      },
+      {
+        "name": "Nutrient Paste",
+        "type": "Consumable",
+        "description": "Three tubes of chalky survival rations scavenged from emergency lockers. Restores 15 health each."
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "Atlas Server Farm",
+        "description": "The decaying nerve center where Morgan survived the Fall. Dead servers hum with backup power, casting blue light on collapsed ceiling panels and the skeletal remains of coworkers.",
+        "time": "04:17 AM",
+        "weather": "Static-laced fog",
+        "terrain": "Collapsed server aisles",
+        "plot": "Morgan's hacked surveillance feed finally located Project Lazarus files - the AI core is active in Sector 7. As they disable the final door lock, Necro-X moans echo through ventilation shafts. Escape requires crossing the data hall where their colleagues turned.",
+        "interactiveItems": [
+          {
+            "name": "Security Override Key",
+            "type": "StoryItem",
+            "description": "Admin lanyard on a decayed corpse. Bypasses biometric locks in pre-Fall facilities."
+          },
+          {
+            "name": "Stim Injector",
+            "type": "Consumable",
+            "description": "Emergency medical syringe. Boosts movement speed but causes 10 health drain after 5 minutes."
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "Shambler A",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "Tattered lab coat dragging exposed ribcage across coolant puddles",
+            "behavior": "Hostile",
+            "description": "Former network engineer. Still clutches a corroded ID badge reading 'PROJECT LAZARUS ACCESS'.",
+            "lifeFormLevel": 1,
+            "health": 80,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "Crawler B",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.4,
+            "appearance": "Limbless torso wedged under server rack, snapping teeth at ankle height",
+            "behavior": "Hostile",
+            "description": "Trapped during the outbreak. Necro-X mutation dissolved its lower body.",
+            "lifeFormLevel": 1,
+            "health": 40,
+            "visibleToPlayer": false
+          },
+          {
+            "name": "Whisperer C",
+            "gender": "Other",
+            "age": 0,
+            "type": "Unknown",
+            "fate": 0.2,
+            "appearance": "Semi-translucent skin stretched over humming vocal cords",
+            "behavior": "Neutral",
+            "description": "Stage-2 infected. Emits frequency that disrupts other undead but causes migraines in humans.",
+            "lifeFormLevel": 3,
+            "health": 60,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T08:27:28.030Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T08:29:51.466Z",
+  "data": {
+    "successScene": [
+      {
+        "plot": "Your fingers close around the Security Override Key just as decaying hands slam against the reinforced glass separating the control room from the data hall. The console flashes green—Project Lazarus protocols engaged. Distorted groans crescendo as your former colleagues shamble between server racks, their lab coats now burial shrouds. With the key secured, the exit door grinds open, but the path is blocked by six necrotic engineers. Suddenly, a ventilation shaft bursts open above, and a hairless, multi-jointed creature drops onto a zombie—a Vent Lurker drawn by the commotion. Its distraction creates a narrow path through the chaos.",
+        "newTag": [
+          "security-key-holder"
+        ],
+        "sceneId": 1,
+        "location": "Sector 7 Data Hall",
+        "description": "A cavernous server farm illuminated by emergency red lighting. Rows of dead terminals stretch into darkness, their screens reflecting shuffling shadows. Exposed cables snake across the floor like roots, and the stench of腐肉 (fǔ ròu - rotting flesh) hangs thick.",
+        "time": "Night",
+        "weather": "Indoor Stasis",
+        "terrain": "Industrial Ruins",
+        "rewardPool": [
+          {
+            "name": "Security Override Key",
+            "type": "StoryItem",
+            "description": "Glowing biometric key granting access to Project Lazarus's core systems. The Ascendants would kill for this.",
+            "amount": 1
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "Adrenaline Crash",
+            "type": "Health",
+            "description": "The surge of near-death exertion leaves you trembling and unfocused.",
+            "amount": -15
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "Broken Terminal",
+            "type": "Junk",
+            "description": "Shattered console leaking coolant. Salvageable for basic electronics scrap."
+          },
+          {
+            "name": "Emergency Medkit (Empty)",
+            "type": "Junk",
+            "description": "Ransacked container with only torn packaging and broken syringes inside."
+          },
+          {
+            "name": "Data Tape: Lazarus Subject Zero",
+            "type": "StoryItem",
+            "description": "Corrupted biometric logs showing viral mutation thresholds. Could be deciphered."
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "Engineer Zombie A",
+            "gender": "Male",
+            "age": 40,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "Rotting in tattered lab coat, jaw hanging by tendons",
+            "behavior": "Hostile",
+            "description": "Former systems analyst now fixated on warm flesh",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "Engineer Zombie B",
+            "gender": "Female",
+            "age": 32,
+            "type": "Enemy",
+            "fate": 0.7,
+            "appearance": "Missing left arm, dragging a severed server cable",
+            "behavior": "Hostile",
+            "description": "Bio-containment specialist turned viral vector",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "Vent Lurker",
+            "gender": "Other",
+            "age": 3,
+            "type": "Enemy",
+            "fate": 0.6,
+            "appearance": "Albino skin stretched over elongated limbs, no visible eyes",
+            "behavior": "Hostile",
+            "description": "Necro-X mutation adapted to duct systems. Hunts by vibration.",
+            "lifeFormLevel": 4,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "Whisperer",
+            "gender": "Female",
+            "age": 28,
+            "type": "Unknown",
+            "fate": 0.3,
+            "appearance": "Glowing veins beneath intact Remnant uniform",
+            "behavior": "Neutral",
+            "description": "Stands motionless behind server rack, murmuring binary code",
+            "lifeFormLevel": 5,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ],
+    "failureScene": []
+  }
+}
+---

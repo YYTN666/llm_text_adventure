@@ -1,0 +1,281 @@
+{
+  "worldSet": "The world is a post-apocalyptic wasteland ravaged by a zombie virus that emerged from a failed biotech experiment. The virus, known as 'Necro-X,' reanimates the dead and mutates the living, creating a hierarchy of undead and hybrid creatures. The core cosmology is grounded in a twisted version of biological science, where the virus alters DNA and neural pathways, allowing some entities to develop supernatural abilities. The historical timeline is marked by the 'Fall,' the initial outbreak that collapsed governments and civilizations within months. Survivors now live in scattered enclaves, fortified cities, or nomadic tribes. Societal structures are fractured, with power concentrated in the hands of warlords, scientists, and religious cults who claim to understand the virus. Key factions include the 'Purifiers,' a militant group seeking to eradicate all infected; the 'Ascendants,' a cult that worships the virus as a path to evolution; and the 'Remnant,' a coalition of scientists and engineers trying to reverse the outbreak. Cultural logic revolves around survival at all costs, with taboos including reckless experimentation with the virus and betrayal of one's enclave. Technologies are a mix of scavenged pre-Fall tech and crude innovations, while philosophies range from nihilism to fanatical hope in a cure.",
+  "worldLife": [
+    {
+      "level": 0,
+      "name": "Fragile Life",
+      "description": "Newly turned zombies or severely wounded survivors, barely functional and easily dispatched."
+    },
+    {
+      "level": 1,
+      "name": "Common Entity",
+      "description": "Basic zombies or unarmed civilians, posing minimal threat individually but dangerous in hordes."
+    },
+    {
+      "level": 2,
+      "name": "Trained Operative",
+      "description": "Survivors with combat training or enhanced zombies with rudimentary pack tactics."
+    },
+    {
+      "level": 3,
+      "name": "Elite Organic",
+      "description": "Special forces survivors or mutated zombies with heightened speed and strength."
+    },
+    {
+      "level": 4,
+      "name": "Supernatural Threshold",
+      "description": "Mutants with viral-enhanced abilities like regeneration or psychic resonance."
+    },
+    {
+      "level": 5,
+      "name": "Area Influencer",
+      "description": "Hive-mind zombies or warlords with control over large survivor groups."
+    },
+    {
+      "level": 6,
+      "name": "Domain Controller",
+      "description": "Mutant overlords or AI systems managing fortified cities or zombie hordes."
+    },
+    {
+      "level": 7,
+      "name": "Planet-Level Being",
+      "description": "Rogue AI networks or viral entities capable of global-scale manipulation."
+    }
+  ],
+  "playerBackground": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity.",
+  "playerInfo": {
+    "name": "Morgan",
+    "gender": "Non-binary",
+    "age": 28,
+    "background": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity.",
+    "appearance": "Gaunt frame with sunken eyes, wearing cracked glasses and a frayed hoodie. Pale skin from years indoors, carrying a backpack jury-rigged with server cooling fans.",
+    "health": 115,
+    "lifeFormLevel": 1,
+    "tag": [
+      "security-key-holder"
+    ],
+    "luck": 0.65
+  },
+  "playerEquipment": [
+    {
+      "name": "Hacked Datapad",
+      "type": "Equipment",
+      "description": "Salvaged tablet modified to access pre-Fall security networks. Battery lasts 4 hours.",
+      "itemId": "1749889228424-791"
+    },
+    {
+      "name": "Shock Rod",
+      "type": "Equipment",
+      "description": "Server rack conduit pipe with exposed wiring. Delivers painful but non-lethal jolts to attackers.",
+      "itemId": "1749889228424-355"
+    },
+    {
+      "name": "Nutrient Paste",
+      "type": "Consumable",
+      "description": "Three tubes of chalky survival rations scavenged from emergency lockers. Restores 15 health each.",
+      "itemId": "1749889228424-165"
+    },
+    {
+      "name": "Security Override Key",
+      "type": "StoryItem",
+      "description": "Glowing biometric key granting access to Project Lazarus's core systems. The Ascendants would kill for this.",
+      "amount": 1
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": 0,
+      "location": "Atlas Server Farm",
+      "description": "The decaying nerve center where Morgan survived the Fall. Dead servers hum with backup power, casting blue light on collapsed ceiling panels and the skeletal remains of coworkers.",
+      "time": "04:17 AM",
+      "weather": "Static-laced fog",
+      "terrain": "Collapsed server aisles",
+      "plot": "Morgan's hacked surveillance feed finally located Project Lazarus files - the AI core is active in Sector 7. As they disable the final door lock, Necro-X moans echo through ventilation shafts. Escape requires crossing the data hall where their colleagues turned.",
+      "interactiveItems": [
+        {
+          "name": "Security Override Key",
+          "type": "StoryItem",
+          "description": "Admin lanyard on a decayed corpse. Bypasses biometric locks in pre-Fall facilities.",
+          "itemId": "1749889228424-314"
+        },
+        {
+          "name": "Stim Injector",
+          "type": "Consumable",
+          "description": "Emergency medical syringe. Boosts movement speed but causes 10 health drain after 5 minutes.",
+          "itemId": "1749889228424-188"
+        }
+      ],
+      "interactiveCreatures": [
+        {
+          "name": "Shambler A",
+          "gender": "Other",
+          "age": 0,
+          "type": "Enemy",
+          "fate": 0.9,
+          "appearance": "Tattered lab coat dragging exposed ribcage across coolant puddles",
+          "behavior": "Hostile",
+          "description": "Former network engineer. Still clutches a corroded ID badge reading 'PROJECT LAZARUS ACCESS'.",
+          "lifeFormLevel": 1,
+          "health": 80,
+          "visibleToPlayer": true,
+          "creatureId": "1749889228424-463"
+        },
+        {
+          "name": "Crawler B",
+          "gender": "Other",
+          "age": 0,
+          "type": "Enemy",
+          "fate": 0.4,
+          "appearance": "Limbless torso wedged under server rack, snapping teeth at ankle height",
+          "behavior": "Hostile",
+          "description": "Trapped during the outbreak. Necro-X mutation dissolved its lower body.",
+          "lifeFormLevel": 1,
+          "health": 40,
+          "visibleToPlayer": false,
+          "creatureId": "1749889228424-796"
+        },
+        {
+          "name": "Whisperer C",
+          "gender": "Other",
+          "age": 0,
+          "type": "Unknown",
+          "fate": 0.2,
+          "appearance": "Semi-translucent skin stretched over humming vocal cords",
+          "behavior": "Neutral",
+          "description": "Stage-2 infected. Emits frequency that disrupts other undead but causes migraines in humans.",
+          "lifeFormLevel": 3,
+          "health": 60,
+          "visibleToPlayer": false,
+          "creatureId": "1749889228424-25"
+        }
+      ],
+      "activeCreatures": [
+        {
+          "name": "Shambler A",
+          "gender": "Other",
+          "age": 0,
+          "type": "Enemy",
+          "fate": 0.9,
+          "appearance": "Tattered lab coat dragging exposed ribcage across coolant puddles",
+          "behavior": "Hostile",
+          "description": "Former network engineer. Still clutches a corroded ID badge reading 'PROJECT LAZARUS ACCESS'.",
+          "lifeFormLevel": 1,
+          "health": 80,
+          "visibleToPlayer": true,
+          "creatureId": "1749889228424-463"
+        },
+        {
+          "name": "Crawler B",
+          "gender": "Other",
+          "age": 0,
+          "type": "Enemy",
+          "fate": 0.4,
+          "appearance": "Limbless torso wedged under server rack, snapping teeth at ankle height",
+          "behavior": "Hostile",
+          "description": "Trapped during the outbreak. Necro-X mutation dissolved its lower body.",
+          "lifeFormLevel": 1,
+          "health": 40,
+          "visibleToPlayer": false,
+          "creatureId": "1749889228424-796"
+        }
+      ]
+    },
+    {
+      "plot": "Your fingers close around the Security Override Key just as decaying hands slam against the reinforced glass separating the control room from the data hall. The console flashes green—Project Lazarus protocols engaged. Distorted groans crescendo as your former colleagues shamble between server racks, their lab coats now burial shrouds. With the key secured, the exit door grinds open, but the path is blocked by six necrotic engineers. Suddenly, a ventilation shaft bursts open above, and a hairless, multi-jointed creature drops onto a zombie—a Vent Lurker drawn by the commotion. Its distraction creates a narrow path through the chaos.",
+      "sceneId": 1,
+      "location": "Sector 7 Data Hall",
+      "description": "A cavernous server farm illuminated by emergency red lighting. Rows of dead terminals stretch into darkness, their screens reflecting shuffling shadows. Exposed cables snake across the floor like roots, and the stench of腐肉 (fǔ ròu - rotting flesh) hangs thick.",
+      "time": "Night",
+      "weather": "Indoor Stasis",
+      "terrain": "Industrial Ruins",
+      "interactiveItems": [
+        {
+          "name": "Broken Terminal",
+          "type": "Junk",
+          "description": "Shattered console leaking coolant. Salvageable for basic electronics scrap.",
+          "itemId": "1749889791467-384"
+        },
+        {
+          "name": "Emergency Medkit (Empty)",
+          "type": "Junk",
+          "description": "Ransacked container with only torn packaging and broken syringes inside.",
+          "itemId": "1749889791467-105"
+        },
+        {
+          "name": "Data Tape: Lazarus Subject Zero",
+          "type": "StoryItem",
+          "description": "Corrupted biometric logs showing viral mutation thresholds. Could be deciphered.",
+          "itemId": "1749889791467-511"
+        }
+      ],
+      "interactiveCreatures": [
+        {
+          "name": "Engineer Zombie A",
+          "gender": "Male",
+          "age": 40,
+          "type": "Enemy",
+          "fate": 0.9,
+          "appearance": "Rotting in tattered lab coat, jaw hanging by tendons",
+          "behavior": "Hostile",
+          "description": "Former systems analyst now fixated on warm flesh",
+          "lifeFormLevel": 2,
+          "health": 100,
+          "visibleToPlayer": true,
+          "creatureId": "1749889791468-456"
+        },
+        {
+          "name": "Engineer Zombie B",
+          "gender": "Female",
+          "age": 32,
+          "type": "Enemy",
+          "fate": 0.7,
+          "appearance": "Missing left arm, dragging a severed server cable",
+          "behavior": "Hostile",
+          "description": "Bio-containment specialist turned viral vector",
+          "lifeFormLevel": 2,
+          "health": 100,
+          "visibleToPlayer": true,
+          "creatureId": "1749889791468-403"
+        },
+        {
+          "name": "Vent Lurker",
+          "gender": "Other",
+          "age": 3,
+          "type": "Enemy",
+          "fate": 0.6,
+          "appearance": "Albino skin stretched over elongated limbs, no visible eyes",
+          "behavior": "Hostile",
+          "description": "Necro-X mutation adapted to duct systems. Hunts by vibration.",
+          "lifeFormLevel": 4,
+          "health": 100,
+          "visibleToPlayer": true,
+          "creatureId": "1749889791468-578"
+        },
+        {
+          "name": "Whisperer",
+          "gender": "Female",
+          "age": 28,
+          "type": "Unknown",
+          "fate": 0.3,
+          "appearance": "Glowing veins beneath intact Remnant uniform",
+          "behavior": "Neutral",
+          "description": "Stands motionless behind server rack, murmuring binary code",
+          "lifeFormLevel": 5,
+          "health": 100,
+          "visibleToPlayer": false,
+          "creatureId": "1749889791468-767"
+        }
+      ]
+    }
+  ],
+  "gameOver": false,
+  "history": [
+    "\nYou discovered Shambler A",
+    "\nYou discovered Crawler B",
+    "> To take Security Override Key \n\n(You gained: Security Override Key, Glowing biometric key granting access to Project Lazarus's core systems. The Ascendants would kill for this.)\n(You suffered loss: The surge of near-death exertion leaves you trembling and unfocused.) "
+  ],
+  "plotRecords": [
+    "Morgan's hacked surveillance feed finally located Project Lazarus files - the AI core is active in Sector 7. As they disable the final door lock, Necro-X moans echo through ventilation shafts. Escape requires crossing the data hall where their colleagues turned.",
+    "\nYour fingers close around the Security Override Key just as decaying hands slam against the reinforced glass separating the control room from the data hall. The console flashes green—Project Lazarus protocols engaged. Distorted groans crescendo as your former colleagues shamble between server racks, their lab coats now burial shrouds. With the key secured, the exit door grinds open, but the path is blocked by six necrotic engineers. Suddenly, a ventilation shaft bursts open above, and a hairless, multi-jointed creature drops onto a zombie—a Vent Lurker drawn by the commotion. Its distraction creates a narrow path through the chaos."
+  ]
+}
