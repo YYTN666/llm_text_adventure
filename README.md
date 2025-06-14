@@ -1,8 +1,3 @@
-# llm_text_adventure
-A game demo
-# llm_text_adventure
-A game demo
-
 # LLM Text Adventure Game — Technical Guide
 
 ## Overview
