@@ -743,7 +743,7 @@ Output format:
           playerEquipment.push(red);
           outcomeText += `\n(You gained: ${red.name}, ${red.description})`;
         } else if (red.type === "Health") {
-          playerInfo.health += red.amount;
+          playerInfo.health += Math.abs(pen.amount);
           if (playerInfo.health > 100) {
             playerInfo.health = 100;
           }
@@ -759,7 +759,7 @@ Output format:
         if (pen.type === "Health" || pen.type === "StoryItem" || pen.type === "Equipment" || pen.type === "Consumable" || pen.type === "Junk") {
           outcomeText += `\n(You suffered loss: ${pen.description})`;
           if (pen.type === "Health") {
-            playerInfo.health -= pen.amount;
+            playerInfo.health -= Math.abs(pen.amount);
             if (playerInfo.health <= 0) {
               outcomeText += "\nYou collapsed. Story ends...";
               game.gameOver = true;

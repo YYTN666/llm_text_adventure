@@ -1059,3 +1059,837 @@
   }
 }
 ---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T17:07:11.420Z",
+  "data": {
+    "worldSet": "这是一个丧尸末日的世界，人类社会在病毒爆发后几近崩溃。病毒最初被研发为一种生物武器，却在意外泄露后迅速蔓延，将大部分人类转化为无意识的丧尸。幸存者们挣扎求存，形成了分散的避难所和游荡的掠夺者团体。世界的基础设施大部分瘫痪，电力、通讯和交通系统几乎完全失效。少数科研机构和军事基地仍在运作，试图寻找解药或控制病毒。丧尸的行为模式逐渐进化，从最初的无意识攻击到部分个体展现出低等智能。某些幸存者因病毒变异获得了超乎常人的能力，但也付出了沉重的代价。",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "包括垂死的人类、刚转化的丧尸或完全损坏的机器人。它们几乎无法构成威胁。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "普通人类幸存者、基础丧尸或小型动物。它们具备基本的生存本能，但威胁有限。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的个体",
+        "description": "经过训练的幸存者士兵、进化后的丧尸或猎食性动物。它们能有效应对中等威胁。"
+      },
+      {
+        "level": 3,
+        "name": "精英有机体",
+        "description": "体能达到巅峰的人类战士、变异丧尸或经过基因改造的生物。它们具备高度的战斗能力。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "通过病毒变异或科技强化获得超越自然极限的能力。低阶超人类、变异野兽或初级异能者。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能够改变局部战场局势的存在，如高阶变异丧尸、异能者领袖或战术AI。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "能够操纵生态系统或指挥丧尸群的强大个体，如丧尸女王、高阶异能者或军事AI核心。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "其行为足以影响整个星球生态或政治格局的存在，如全球性AI网络或巨型变异生物。"
+      },
+      {
+        "level": 8,
+        "name": "恒星实体",
+        "description": "具备星际旅行或能量操控能力的超然存在，如外星干预者或量子意识体。"
+      },
+      {
+        "level": 9,
+        "name": "银河建筑师",
+        "description": "能够重塑银河系结构或文明的至高存在，如远古超级文明或宇宙级AI。"
+      },
+      {
+        "level": 10,
+        "name": "概念神",
+        "description": "超越物理法则的抽象存在，如病毒本源意识或宇宙熵增的化身。"
+      }
+    ],
+    "playerBackground": "你曾是一名瘦弱的程序员，在病毒爆发前终日与代码为伴。末世降临后，你的体能劣势让你屡屡陷入绝境，但你依靠敏锐的观察力和逻辑思维存活至今。你对电子设备和网络架构的了解，让你在废墟中偶尔能找到一线生机。内心深处，你仍怀念那个有序的世界，并渴望用技术重建文明。你的生存动力不仅来自恐惧，更源于对旧日同伴的愧疚——他们因你的犹豫而丧生。现在，你必须在人性的边缘挣扎，同时寻找救赎的可能。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T17:08:55.762Z",
+  "data": {
+    "playerInfo": {
+      "name": "林伟",
+      "gender": "男",
+      "age": 29,
+      "background": "你曾是一名瘦弱的程序员，在病毒爆发前终日与代码为伴。末世降临后，你的体能劣势让你屡屡陷入绝境，但你依靠敏锐的观察力和逻辑思维存活至今。你对电子设备和网络架构的了解，让你在废墟中偶尔能找到一线生机。内心深处，你仍怀念那个有序的世界，并渴望用技术重建文明。你的生存动力不仅来自恐惧，更源于对旧日同伴的愧疚——他们因你的犹豫而丧生。现在，你必须在人性的边缘挣扎，同时寻找救赎的可能。",
+      "appearance": "瘦削的体型，黑框眼镜破碎后用胶带勉强固定，穿着沾满油污的连帽衫。脖颈处有道未愈合的抓痕，眼神警觉但带着程序员的疲惫感。",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "电子专家",
+        "逻辑分析",
+        "体能缺陷",
+        "创伤记忆"
+      ],
+      "luck": 0.45
+    },
+    "playerEquipment": [
+      {
+        "name": "改装军用平板",
+        "type": "Equipment",
+        "description": "加装太阳能充电板的战术平板，储存着病毒爆发前的城市电网数据和实验室坐标，可破解简单电子锁"
+      },
+      {
+        "name": "绝缘螺丝刀",
+        "type": "Equipment",
+        "description": "柄部缠绕着胶带的维修工具，既可检修电路又能作为近身武器，但仅造成轻微伤害"
+      },
+      {
+        "name": "血清抑制剂",
+        "type": "Consumable",
+        "description": "仅剩的半管蓝色液体，能暂时压制伤口感染，使用后健康值+15但伴随剧烈头痛"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "地下数据中心",
+        "description": "位于废弃电信大厦地下的应急服务器机房，你在病毒爆发时侥幸躲进这里。通风管道传来腐臭味，应急灯闪烁的绿光映照着成排的机柜。你来此试图恢复城市监控系统的片段数据，寻找失踪研究队的线索。",
+        "time": "凌晨3点",
+        "weather": "密闭空间",
+        "terrain": "狭窄通道",
+        "plot": "当最后一段监控录像加载完成时，备用电源突然熄灭。黑暗中传来机柜被撞倒的巨响——某种生物正从通风管道爬进来。你必须立刻抉择：带着不完整的数据逃跑，还是冒险启动EMP装置制造干扰？",
+        "interactiveItems": [
+          {
+            "name": "EMP手雷",
+            "type": "Equipment",
+            "description": "能瘫痪电子设备并短暂干扰丧尸感官，但也会摧毁所有未保存数据"
+          },
+          {
+            "name": "服务器日志",
+            "type": "StoryItem",
+            "description": "记载着病毒爆发当日实验室的异常数据传输记录，指向军方秘密研究所"
+          },
+          {
+            "name": "配电箱",
+            "type": "Equipment",
+            "description": "裸露的电线可制造电击陷阱，需要电子技能激活"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "腐烂技术员",
+            "gender": "男",
+            "age": 35,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "穿着破碎的工装服，左臂机械义肢闪烁着电火花，脖颈伤口不断滴落黑色粘液",
+            "behavior": "Hostile",
+            "description": "生前维护服务器的工程师，变异后仍在本能地破坏电子设备",
+            "lifeFormLevel": 2,
+            "health": 80,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "通风管猎食者",
+            "gender": "未知",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.6,
+            "appearance": "四足爬行的苍白生物，关节反转，口器呈金属探针状",
+            "behavior": "Hostile",
+            "description": "由实验室老鼠变异而成，专门啃噬电缆绝缘层",
+            "lifeFormLevel": 3,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T17:12:45.675Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T17:15:55.532Z",
+  "data": {
+    "successScene": [
+      {
+        "plot": "你果断拔出EMP手雷的安全栓，朝着通风管道方向掷去。手雷爆开的瞬间，幽蓝色电弧在黑暗中炸裂，如同蛛网般爬满整个机房。金属机柜发出刺耳的悲鸣，通风管道内传来凄厉的嘶吼——那个正钻出管道的生物浑身抽搐着坠落，电子义眼迸出火花。借着电弧余光，你瞥见它畸变的躯体上嵌着生锈的军用植入体。数据终端突然闪烁重启，最后5%的监控数据正在强制下载。但EMP冲击波也点燃了电缆绝缘层，火苗正顺着油渍蔓延到纸质档案堆。",
+        "newTag": [
+          "EMP实战经验",
+          "轻度烧伤",
+          "电子设备过载"
+        ],
+        "sceneId": 1,
+        "location": "地下实验室监控室",
+        "description": "布满电缆的狭小空间，三面墙嵌着闪烁雪花的监控屏。中央控制台冒着青烟，通风管道裂口滴落粘稠液体，空气弥漫着臭氧与皮肉焦糊的混合气味。",
+        "time": "深夜",
+        "weather": "密闭空间无天气",
+        "terrain": "地下设施",
+        "rewardPool": [
+          {
+            "name": "实验室监控数据",
+            "type": "StoryItem",
+            "description": "记录着病毒爆发前72小时的关键影像，硬盘表面有电磁灼痕",
+            "amount": 1
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "EMP手雷",
+            "type": "Equipment",
+            "description": "已消耗，电磁脉冲造成机房设备永久性损坏",
+            "amount": 1
+          },
+          {
+            "name": "生命值",
+            "type": "Health",
+            "description": "电缆爆燃时被飞溅的熔融塑料灼伤",
+            "amount": -15
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "灭火器",
+            "type": "Consumable",
+            "description": "壁挂式钢瓶，压力表显示剩余50%容量"
+          },
+          {
+            "name": "通风管盖板",
+            "type": "Junk",
+            "description": "被EMP冲击波炸飞的锯齿状金属板，边缘沾着暗绿色粘液"
+          },
+          {
+            "name": "军用医疗包",
+            "type": "Consumable",
+            "description": "印着生物危害标志的金属箱，内置病毒检测试剂"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "义体改造丧尸",
+            "gender": "Other",
+            "age": 2,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "脊椎焊接液压支架，左眼替换成红色电子义眼，右臂改装旋转电锯",
+            "behavior": "Hostile",
+            "description": "军方早期植入体实验失败品，EMP导致其神经接口短路",
+            "lifeFormLevel": 4,
+            "health": 65,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "变异鼠群",
+            "gender": "Other",
+            "age": 1,
+            "type": "Enemy",
+            "fate": 0.6,
+            "appearance": "油亮黑毛覆盖着肿瘤状增生，门齿泛着金属光泽",
+            "behavior": "Hostile",
+            "description": "啃噬电缆绝缘层时被EMP波及，正处于狂暴状态",
+            "lifeFormLevel": 1,
+            "health": 100,
+            "visibleToPlayer": true
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T17:46:46.196Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T17:48:40.553Z",
+  "data": {
+    "failureScene": [
+      {
+        "plot": "你抓住灭火器手柄的瞬间，金属罐体突然发出刺耳的泄气声——灭火剂早已耗尽，只喷出几缕无力的白烟。火舌趁机窜上天花板，点燃了电缆桥架里的绝缘层。浓烟裹着热浪翻滚而下，通风管道里传来金属扭曲的呻吟。那个嵌着军用植入体的畸变体突然在火海中直立起来，燃烧的电子义眼死死锁定你。它撕裂着灼伤的皮肤扑来，数据终端在高温中炸成一团火花，最后5%的监控资料永远化为灰烬。",
+        "newTag": [
+          "中度烧伤",
+          "烟雾中毒",
+          "EMP实战经验"
+        ],
+        "sceneId": 2,
+        "location": "机房",
+        "description": "密闭服务器机房充满刺鼻的焦糊味，机柜骨架在烈火中扭曲变形，燃烧的电缆像垂死巨蛇般从天花板垂下。浓烟遮蔽了所有逃生标识，唯一的光源是跳跃的火焰。",
+        "time": "深夜",
+        "weather": "无",
+        "terrain": "室内",
+        "rewardPool": [],
+        "penaltyPool": [
+          {
+            "name": "生命值",
+            "type": "Health",
+            "description": "高温灼伤与有毒烟雾造成持续伤害",
+            "amount": -35
+          },
+          {
+            "name": "监控数据",
+            "type": "Information",
+            "description": "最后5%的关键监控资料被火焰吞噬",
+            "amount": 1
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "空灭火器",
+            "type": "Junk",
+            "description": "完全耗尽的压力罐，罐体被高温烤得变形"
+          },
+          {
+            "name": "军用数据核心",
+            "type": "StoryItem",
+            "description": "从燃烧的畸变体身上掉落的金属方块，表面刻着'Project Lazarus'字样"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "军用植入体畸变体",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "三米高的类人躯体覆盖着熔化又凝固的金属装甲，脊椎处伸出断裂的电缆，左臂改装成旋转链锯",
+            "behavior": "Hostile",
+            "description": "生物武器计划的失败实验体，痛觉神经被军方移除",
+            "lifeFormLevel": 4,
+            "health": 65,
+            "visibleToPlayer": true
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T18:05:08.346Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T18:07:46.341Z",
+  "data": {
+    "failureScene": [
+      {
+        "plot": "你转身冲向机房出口，燃烧的电缆碎片如雨点般砸落。军用植入体畸变体撕裂着灼伤的皮肤猛扑过来，利爪划破你的背包带。你感到背部一阵撕裂般的剧痛，医疗包从裂开的背包中掉进火海。浓烟灌进肺叶，你撞开防火门滚进走廊，听见身后传来金属门被撞凹的巨响。畸变体燃烧的轮廓在门玻璃上晃动，电子义眼穿透浓烟锁定你的位置。防火门液压杆发出不堪重负的呻吟，火舌正沿着电缆井向楼上蔓延。",
+        "newTag": [
+          "严重烧伤",
+          "背部抓伤",
+          "烟雾中毒",
+          "EMP实战经验"
+        ],
+        "sceneId": 3,
+        "location": "走廊",
+        "description": "狭窄的混凝土走廊弥漫着刺鼻的焦糊味，应急灯在浓烟中投射出摇曳的血色光晕。防火门被撞出蛛网状裂痕，天花板电缆桥架滴落滚烫的熔渣，火势正通过通风管道向建筑上层蔓延。",
+        "time": "夜晚",
+        "weather": "无",
+        "terrain": "室内",
+        "rewardPool": [],
+        "penaltyPool": [
+          {
+            "name": "生命值损伤",
+            "type": "Health",
+            "description": "逃离过程中被燃烧的变异体抓伤背部，并因火势扩大导致严重烧伤",
+            "amount": -30
+          }
+        ],
+        "interactiveItems": [],
+        "interactiveCreatures": [
+          {
+            "name": "军用植入体畸变体",
+            "gender": "Other",
+            "age": 35,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "全身严重烧伤，电子义眼闪烁火花，军用植入体暴露在焦黑的皮肉外",
+            "behavior": "Hostile",
+            "description": "原本是士兵，因病毒和植入体变异而成，对EMP有抗性但被EMP暂时瘫痪后又被大火激怒",
+            "lifeFormLevel": 5,
+            "health": 60,
+            "visibleToPlayer": true
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T18:29:21.272Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T18:32:04.064Z",
+  "data": {
+    "successScene": [
+      {
+        "plot": "你咬开血清抑制剂的保护盖，在狂奔中将针管狠狠扎进大腿。冰凉的液体涌入血管瞬间，灼烧般的痛楚奇迹般消退，但随之而来的是天旋地转的眩晕。防火门在身后轰然倒塌，燃烧的军用畸变体冲破浓烟扑来，电子义眼锁定你踉跄的身影。就在利爪即将撕裂你喉咙的刹那，抑制剂引发的剧烈痉挛反而让你诡异地向后折腰，灼热的金属指爪擦着鼻尖掠过，在混凝土墙面刮出五道熔化的凹槽。畸变体因惯性撞进配电箱，裸露的脊椎接口迸出蓝白色电弧——EMP造成的旧伤在高压电击下彻底爆发。你趁机滚下消防梯，听见上方传来金属脊椎断裂的刺耳声响。",
+        "newTag": [
+          "严重烧伤",
+          "背部抓伤",
+          "抑制剂副作用",
+          "EMP实战经验"
+        ],
+        "sceneId": 4,
+        "location": "地下车库入口",
+        "description": "生锈的卷帘门半悬在导轨上，地面凝结着黑红色油污。数十辆废弃汽车如同金属坟墓般排列，车顶积满天花板剥落的石膏碎块。唯一光源是应急出口标志的幽绿荧光，将扭曲的通风管道影子投在布满抓痕的承重柱上。",
+        "time": "深夜",
+        "weather": "室内浓烟",
+        "terrain": "都市废墟",
+        "rewardPool": [
+          {
+            "name": "军用级脊椎接口情报",
+            "type": "Information",
+            "description": "通过观察畸变体弱点获得的珍贵数据，可能揭示生物兵器改造技术的突破口",
+            "amount": 1
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "血清抑制剂",
+            "type": "Consumable",
+            "description": "最后一支解毒血清在注射时因颠簸浪费了30%剂量",
+            "amount": 1
+          },
+          {
+            "name": "生命值",
+            "type": "Health",
+            "description": "抑制剂副作用引发神经毒性反应",
+            "amount": -20
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "防暴盾牌",
+            "type": "Equipment",
+            "description": "嵌在警车残骸里的复合材质盾牌，表面有深达三厘米的爪痕"
+          },
+          {
+            "name": "车库控制终端",
+            "type": "StoryItem",
+            "description": "闪烁着错误代码的触控屏，需要备用电源才能启动升降闸门"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "军用植入体畸变体",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.7,
+            "appearance": "脊椎断裂导致下半身瘫痪，仍用金属义肢爬行追击，电子义眼因电路短路不断爆出火花",
+            "behavior": "Hostile",
+            "description": "被EMP和高压电双重重创的生物兵器，对玩家存在执念般的追杀本能",
+            "lifeFormLevel": 6,
+            "health": 45,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "车底潜伏者",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.4,
+            "appearance": "仅剩上半身的丧尸，腹腔拖拽着电缆缠绕的内脏",
+            "behavior": "Hostile",
+            "description": "被爆炸冲击波撕碎后困在车底的变异体，对震动异常敏感",
+            "lifeFormLevel": 2,
+            "health": 60,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T18:42:38.499Z",
+  "data": {
+    "successProbability": 0.5,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T18:45:35.055Z",
+  "data": {
+    "successScene": [],
+    "failureScene": [
+      {
+        "plot": "你踉跄着扑向墙角的防爆盾牌，严重烧伤的双手却无法承受金属的重量。盾牌砸落地面发出巨响，抑制剂引发的眩晕让你栽进污水坑。头顶传来建筑物坍塌的轰鸣，燃烧的承重梁砸落下来，飞溅的混凝土碎片击中你的脚踝。巷口火光摇曳处，两只穿着市政制服的丧尸踩着满地肠子逼近，被火焰映亮的牙齿滴落腐臭黏液。",
+        "newTag": [
+          "严重烧伤",
+          "背部抓伤",
+          "抑制剂副作用",
+          "EMP实战经验",
+          "脚踝受伤"
+        ],
+        "sceneId": 5,
+        "location": "后巷",
+        "description": "建筑物背面的狭窄通道，堆满腐烂的垃圾袋和废弃家具。高处燃烧的火光在油污墙面上投下摇晃的阴影，浓烟顺着铁制消防梯盘旋而下。",
+        "time": "深夜",
+        "weather": "烟雾弥漫",
+        "terrain": "都市",
+        "rewardPool": [],
+        "penaltyPool": [
+          {
+            "name": "脚踝骨折",
+            "type": "Health",
+            "description": "坠落的建筑碎块造成关节损伤",
+            "amount": -15
+          }
+        ],
+        "interactiveItems": [],
+        "interactiveCreatures": [
+          {
+            "name": "市政丧尸A",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 1,
+            "appearance": "制服腹部撕裂露出肋骨，左腿胫骨外露",
+            "behavior": "Hostile",
+            "description": "被火灾动静吸引的初级感染者",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "环卫丧尸B",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.8,
+            "appearance": "工装裤沾满沥青，下颌缺失使舌头垂至胸口",
+            "behavior": "Hostile",
+            "description": "游荡至火场的腐烂行尸",
+            "lifeFormLevel": 2,
+            "health": 100,
+            "visibleToPlayer": true
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T18:53:47.013Z",
+  "data": {
+    "successProbability": 0.25,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T18:56:12.232Z",
+  "data": {
+    "failureScene": [
+      {
+        "plot": "你拖着受伤的脚踝试图寻找掩体，剧痛却让每一步都像踩在刀尖上。污水坑里的腐臭液体渗入脚踝伤口，引来更多阴影中的蠕动。两只市政制服丧尸踩着满地肠子加速逼近，被火焰映亮的腐牙滴落黏液。你抓起半截钢筋反击，但烧伤的双手根本握不住武器。钢筋脱手时发出的脆响刺激了丧尸，它们同时扑咬上来——一只啃穿了你的小腿肚，另一只的指骨插进背部抓伤的溃烂处。建筑物坍塌的轰鸣淹没你的惨叫，燃烧的承重梁裹着混凝土砸落，将你们全部掩埋在瓦砾堆里。当剧痛转为麻木时，你听见自己肋骨断裂的脆响，混着远处新一波尸潮的嘶吼。",
+        "newTag": [
+          "严重烧伤",
+          "背部抓伤",
+          "脚踝骨折",
+          "腿部咬伤",
+          "病毒感染",
+          "肋骨断裂"
+        ],
+        "sceneId": 6,
+        "location": "后巷废墟",
+        "description": "坍塌的三层建筑将巷子变成钢筋与混凝土的坟墓，燃烧的电缆在积水里嘶嘶作响。夜风卷着火星掠过瓦砾堆，远处尸潮的嘶吼声正在逼近。",
+        "time": "深夜",
+        "weather": "烟尘弥漫",
+        "terrain": "城市废墟",
+        "rewardPool": [],
+        "penaltyPool": [
+          {
+            "name": "腿部动脉咬伤",
+            "type": "Health",
+            "description": "市政丧尸的腐齿撕裂小腿动脉，持续失血导致意识模糊",
+            "amount": -40
+          },
+          {
+            "name": "建筑物坍塌伤害",
+            "type": "Health",
+            "description": "混凝土碎块击断三根肋骨并造成内出血",
+            "amount": -35
+          }
+        ],
+        "interactiveItems": [],
+        "interactiveCreatures": []
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responseWorld",
+  "timestamp": "2025-06-14T19:09:31.699Z",
+  "data": {
+    "worldSet": "这是一个丧尸末日的世界，人类社会在突如其来的病毒爆发后崩溃。病毒最初被误认为是一种普通的流感，但很快人们发现感染者会变成狂暴的、渴望血肉的丧尸。随着感染的蔓延，政府机构瘫痪，城市沦为废墟，幸存者们被迫在荒野和废弃的建筑中挣扎求生。\n\n核心宇宙观：病毒并非自然产生，而是由一家名为“新纪元生物科技”的公司秘密研发的生物武器。病毒不仅能将人类转化为丧尸，还能在极端环境下促使生物发生突变，产生各种恐怖的变异生物。\n\n历史时间线：\n1. 病毒爆发前：世界看似和平，科技高度发达，但贫富差距和社会矛盾日益加剧。\n2. 病毒爆发初期：政府试图掩盖真相，导致感染迅速扩散。\n3. 社会崩溃：军队和政府机构瓦解，幸存者开始自发组织抵抗或逃亡。\n4. 新秩序形成：幸存者分为多个派系，有的试图重建文明，有的则沦为掠夺者。\n\n社会结构：原有的社会秩序已不复存在，取而代之的是以生存为核心的部落式群体。资源稀缺导致暴力成为常态，道德和法律被弱化。\n\n主要派系：\n1. 幸存者联盟：由前政府官员和军人领导，试图重建秩序。\n2. 掠夺者：以暴力为手段，掠夺其他幸存者的资源。\n3. 新纪元信徒：崇拜病毒，认为它是人类进化的关键。\n4. 变异生物：受病毒影响的动物和人类，具有强大的攻击性。\n\n文化逻辑：生存是第一要务，信任成为奢侈品。科技和知识被视为宝贵的资源，但同时也可能带来危险。宗教和迷信在绝望中滋生，许多人相信病毒是神的惩罚或试炼。",
+    "worldLife": [
+      {
+        "level": 0,
+        "name": "脆弱生命",
+        "description": "包括垂死的幸存者、重伤的丧尸或即将崩溃的机器。它们在末日中几乎无法生存。"
+      },
+      {
+        "level": 1,
+        "name": "普通实体",
+        "description": "普通的幸存者或丧尸，具有基本的意识和威胁性。他们是末日中最常见的存在。"
+      },
+      {
+        "level": 2,
+        "name": "训练有素的战士",
+        "description": "经过训练的幸存者或具有较高攻击性的丧尸，能够应对中等威胁。"
+      },
+      {
+        "level": 3,
+        "name": "精英生物",
+        "description": "体能达到巅峰的幸存者或变异丧尸，具有更强的战斗力和生存能力。"
+      },
+      {
+        "level": 4,
+        "name": "超自然门槛",
+        "description": "通过病毒变异或科技改造获得超常能力的生物，如低阶变异兽或初级异能者。"
+      },
+      {
+        "level": 5,
+        "name": "区域影响者",
+        "description": "能够改变战场局势或控制大片区域的强大存在，如高阶变异兽或异能者领袖。"
+      },
+      {
+        "level": 6,
+        "name": "领域控制者",
+        "description": "能够操纵生态系统或指挥大量变异生物的存在，如变异兽王或异能者军团首领。"
+      },
+      {
+        "level": 7,
+        "name": "行星级存在",
+        "description": "其行为足以影响整个星球生态或政治格局的存在，如失控的超级AI或终极变异体。"
+      }
+    ],
+    "playerBackground": "你是一名高中生，病毒爆发时正在学校上课。亲眼目睹老师和同学变成丧尸的恐怖场景让你心灵受创。在混乱中，你侥幸逃脱，但家人和朋友的下落不明。如今，你独自一人在废墟中求生，必须学会使用有限的资源和武器保护自己。内心的恐惧和孤独时常折磨着你，但求生的本能驱使你继续前进。你渴望找到其他幸存者，却又害怕再次失去。"
+  }
+}
+---
+{
+  "label": "responseElement",
+  "timestamp": "2025-06-14T19:11:03.502Z",
+  "data": {
+    "playerInfo": {
+      "name": "陈明",
+      "gender": "男",
+      "age": 17,
+      "background": "你是一名高中生，病毒爆发时正在学校上课。亲眼目睹老师和同学变成丧尸的恐怖场景让你心灵受创。在混乱中，你侥幸逃脱，但家人和朋友的下落不明。如今，你独自一人在废墟中求生，必须学会使用有限的资源和武器保护自己。内心的恐惧和孤独时常折磨着你，但求生的本能驱使你继续前进。你渴望找到其他幸存者，却又害怕再次失去。",
+      "appearance": "瘦高的身形裹在沾满灰尘的校服里，左肩有道结痂的抓痕。凌乱的黑发下是布满血丝的双眼，嘴唇因缺水而干裂，背着一个鼓胀的帆布书包。",
+      "health": 100,
+      "lifeFormLevel": 1,
+      "tag": [
+        "高中生",
+        "心灵创伤",
+        "求生本能",
+        "敏捷反应"
+      ],
+      "luck": 0.6
+    },
+    "playerEquipment": [
+      {
+        "name": "消防斧",
+        "type": "Equipment",
+        "description": "从学校消防柜抢出的斧头，刃口有崩缺但足够劈开丧尸头骨"
+      },
+      {
+        "name": "半瓶矿泉水",
+        "type": "Consumable",
+        "description": "只剩三分之一的水，瓶身布满裂痕"
+      },
+      {
+        "name": "染血的地图",
+        "type": "StoryItem",
+        "description": "标记着城市撤离点的学生地图，背面有潦草写着的'去码头'"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": 0,
+        "location": "废弃教学楼三层走廊",
+        "description": "病毒爆发三天后的母校。走廊弥漫着血腥与腐臭，墙壁溅满褐红色污迹。散落的课本被踩进破碎的玻璃渣里，你从藏身的化学教室溜出，寻找食物和出路。",
+        "time": "黄昏",
+        "weather": "铅灰色阴云低压",
+        "terrain": "布满障碍物的室内走廊",
+        "plot": "远处传来拖沓的脚步声，你必须在天黑前穿过走廊到达楼梯间。公告栏贴着被撕掉一半的'感染者隔离通知'，地上有新鲜血迹指向西侧储物柜。",
+        "interactiveItems": [
+          {
+            "name": "散落的急救包",
+            "type": "Consumable",
+            "description": "被撕开的红色塑胶盒，内剩两片止痛药和沾灰的绷带"
+          },
+          {
+            "name": "卡住的储物柜",
+            "type": "StoryItem",
+            "description": "03号柜门微开，里面有金属反光，但需要工具撬开"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "教师丧尸",
+            "gender": "女",
+            "age": 42,
+            "type": "Enemy",
+            "fate": 0.9,
+            "appearance": "穿着撕裂的西装套裙，脖颈缺失大块血肉，拖着一根断裂的教鞭",
+            "behavior": "Hostile",
+            "description": "曾经的数学老师，如今只剩进食本能，在走廊东侧徘徊",
+            "lifeFormLevel": 1,
+            "health": 100,
+            "visibleToPlayer": true
+          },
+          {
+            "name": "爬行变异体",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.4,
+            "appearance": "脊柱扭曲凸起，四肢反关节爬行，嘴角滴落绿色黏液",
+            "behavior": "Hostile",
+            "description": "被病毒改造的学生尸体，潜伏在天花板通风管",
+            "lifeFormLevel": 3,
+            "health": 100,
+            "visibleToPlayer": false
+          }
+        ]
+      }
+    ]
+  }
+}
+---
+{
+  "label": "responProbability",
+  "timestamp": "2025-06-14T19:32:09.121Z",
+  "data": {
+    "successProbability": 0.75,
+    "explanation": ""
+  }
+}
+---
+{
+  "label": "responseScene",
+  "timestamp": "2025-06-14T19:34:20.309Z",
+  "data": {
+    "successScene": [
+      {
+        "plot": "你凭借敏捷反应，迅速接近教师丧尸，利用走廊的狭窄空间和随身武器猛击其头部。丧尸发出一声嘶吼后倒地，但攻击的声响在西侧储物柜方向引发金属刮擦声——一个扭曲的身影正试图挤出门缝。公告栏上的血迹似乎更加新鲜，远处拖沓的脚步声正逐渐逼近，迫使你加快行动。",
+        "newTag": [
+          "高中生",
+          "心灵创伤",
+          "求生本能",
+          "敏捷反应",
+          "轻伤",
+          "近战基础"
+        ],
+        "sceneId": 1,
+        "location": "走廊",
+        "description": "废弃的学校走廊，墙壁上贴着残缺的感染者隔离通知，地上血迹斑斑，腐臭味弥漫。西侧储物柜门半开，金属摩擦声持续传来。",
+        "time": "黄昏",
+        "weather": "阴天",
+        "terrain": "城市废墟",
+        "rewardPool": [
+          {
+            "name": "储物柜钥匙",
+            "type": "StoryItem",
+            "description": "从教师丧尸身上掉落，可以打开西侧储物柜，可能藏有生存资源。",
+            "amount": null
+          }
+        ],
+        "penaltyPool": [
+          {
+            "name": "健康损失",
+            "type": "Health",
+            "description": "攻击过程中被教师丧尸抓伤手臂，造成轻微感染风险。",
+            "amount": -10
+          }
+        ],
+        "interactiveItems": [
+          {
+            "name": "储物柜钥匙",
+            "type": "StoryItem",
+            "description": "可以打开西侧储物柜，可能藏有生存资源。"
+          },
+          {
+            "name": "感染者通知残片",
+            "type": "StoryItem",
+            "description": "公告栏上撕下的部分，记录着病毒爆发初期的隔离措施，可能提供线索。"
+          }
+        ],
+        "interactiveCreatures": [
+          {
+            "name": "变异清洁工丧尸A",
+            "gender": "Other",
+            "age": 0,
+            "type": "Enemy",
+            "fate": 0.8,
+            "appearance": "身穿破烂清洁工制服，手臂异常粗大且覆盖脓疱，眼睛泛着红光。",
+            "behavior": "Hostile",
+            "description": "受病毒变异的清洁工，更具攻击性，对声音极度敏感。",
+            "lifeFormLevel": 4,
+            "health": 100,
+            "visibleToPlayer": true
+          }
+        ]
+      }
+    ],
+    "failureScene": []
+  }
+}
+---

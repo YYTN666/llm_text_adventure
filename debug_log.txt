@@ -309,3 +309,47 @@
 [2025-06-14T08:29:51.468Z] [1.New Creature]=1749889791468-403
 [2025-06-14T08:29:51.468Z] [1.New Creature]=1749889791468-578
 [2025-06-14T08:29:51.468Z] [1.New Creature]=1749889791468-767
+[2025-06-14T17:12:29.850Z] [Active creature, Enemy] associate=1 > random=0.816 ? true
+[2025-06-14T17:12:29.851Z] [Active creature, Enemy] associate=0.6666666666666666 > random=0.445 ? true
+[2025-06-14T17:12:29.851Z] [Evolution]threshold=0.955 <= random=0.634 ? false
+[2025-06-14T17:15:55.532Z] [1.Plot Direction]totalRate=0.675 > random=0.184 ? isSuccess=true
+[2025-06-14T17:15:55.532Z] [1.New Item]=1749921355532-239
+[2025-06-14T17:15:55.532Z] [1.New Item]=1749921355532-706
+[2025-06-14T17:15:55.532Z] [1.New Item]=1749921355532-623
+[2025-06-14T17:15:55.533Z] [1.New Creature]=1749921355533-16
+[2025-06-14T17:15:55.533Z] [1.New Creature]=1749921355533-920
+[2025-06-14T17:46:42.726Z] [Active creature, Enemy] associate=1 > random=0.032 ? true
+[2025-06-14T17:46:42.726Z] [Active creature, Enemy] associate=0.6666666666666666 > random=0.22 ? true
+[2025-06-14T17:46:42.726Z] [Evolution]threshold=0.955 <= random=0.684 ? false
+[2025-06-14T17:48:40.553Z] [2.Plot Direction]totalRate=0.675 > random=0.815 ? isSuccess=false
+[2025-06-14T17:48:40.553Z] [2.New Item]=1749923320553-795
+[2025-06-14T17:48:40.553Z] [2.New Item]=1749923320553-262
+[2025-06-14T17:48:40.554Z] [2.New Creature]=1749923320554-859
+[2025-06-14T18:05:02.383Z] [Active creature, Enemy] associate=1 > random=0.333 ? true
+[2025-06-14T18:05:02.383Z] [Evolution]threshold=0.955 <= random=0.019 ? false
+[2025-06-14T18:07:46.341Z] [3.Plot Direction]totalRate=0.675 > random=0.841 ? isSuccess=false
+[2025-06-14T18:07:46.341Z] [3.New Creature]=1749924466341-136
+[2025-06-14T18:29:10.545Z] [Active creature, Enemy] associate=1 > random=0.377 ? true
+[2025-06-14T18:29:10.546Z] [Evolution]threshold=0.955 <= random=0.927 ? false
+[2025-06-14T18:32:04.064Z] [4.Plot Direction]totalRate=0.675 > random=0.656 ? isSuccess=true
+[2025-06-14T18:32:04.065Z] [4.New Item]=1749925924065-870
+[2025-06-14T18:32:04.065Z] [4.New Item]=1749925924065-766
+[2025-06-14T18:32:04.065Z] [4.New Creature]=1749925924065-428
+[2025-06-14T18:32:04.065Z] [4.New Creature]=1749925924065-860
+[2025-06-14T18:42:33.582Z] [Active creature, Enemy] associate=0.7777777777777777 > random=0.788 ? false
+[2025-06-14T18:42:33.582Z] [Active creature, Enemy] associate=0.4444444444444445 > random=0.051 ? true
+[2025-06-14T18:42:33.582Z] [Evolution]threshold=0.955 <= random=0.754 ? false
+[2025-06-14T18:45:35.055Z] [5.Plot Direction]totalRate=0.45 > random=0.793 ? isSuccess=false
+[2025-06-14T18:45:35.055Z] [5.New Creature]=1749926735055-60
+[2025-06-14T18:45:35.055Z] [5.New Creature]=1749926735055-570
+[2025-06-14T18:53:35.964Z] [Active creature, Enemy] associate=1.1111111111111112 > random=0.138 ? true
+[2025-06-14T18:53:35.965Z] [Active creature, Enemy] associate=0.888888888888889 > random=0.72 ? true
+[2025-06-14T18:53:35.965Z] [Evolution]threshold=0.955 <= random=0.136 ? false
+[2025-06-14T18:56:12.232Z] [6.Plot Direction]totalRate=0.225 > random=0.31 ? isSuccess=false
+[2025-06-14T19:31:57.075Z] [Active creature, Enemy] associate=0.75 > random=0.698 ? true
+[2025-06-14T19:31:57.076Z] [Active creature, Enemy] associate=0.33333333333333337 > random=0.22 ? true
+[2025-06-14T19:31:57.076Z] [Evolution]threshold=0.94 <= random=0.634 ? false
+[2025-06-14T19:34:20.310Z] [1.Plot Direction]totalRate=0.8999999999999999 > random=0.322 ? isSuccess=true
+[2025-06-14T19:34:20.310Z] [1.New Item]=1749929660310-854
+[2025-06-14T19:34:20.310Z] [1.New Item]=1749929660310-589
+[2025-06-14T19:34:20.310Z] [1.New Creature]=1749929660310-823

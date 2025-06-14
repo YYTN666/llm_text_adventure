@@ -1,281 +1,224 @@
 {
-  "worldSet": "The world is a post-apocalyptic wasteland ravaged by a zombie virus that emerged from a failed biotech experiment. The virus, known as 'Necro-X,' reanimates the dead and mutates the living, creating a hierarchy of undead and hybrid creatures. The core cosmology is grounded in a twisted version of biological science, where the virus alters DNA and neural pathways, allowing some entities to develop supernatural abilities. The historical timeline is marked by the 'Fall,' the initial outbreak that collapsed governments and civilizations within months. Survivors now live in scattered enclaves, fortified cities, or nomadic tribes. Societal structures are fractured, with power concentrated in the hands of warlords, scientists, and religious cults who claim to understand the virus. Key factions include the 'Purifiers,' a militant group seeking to eradicate all infected; the 'Ascendants,' a cult that worships the virus as a path to evolution; and the 'Remnant,' a coalition of scientists and engineers trying to reverse the outbreak. Cultural logic revolves around survival at all costs, with taboos including reckless experimentation with the virus and betrayal of one's enclave. Technologies are a mix of scavenged pre-Fall tech and crude innovations, while philosophies range from nihilism to fanatical hope in a cure.",
+  "worldSet": "这是一个丧尸末日的世界，人类社会在突如其来的病毒爆发后崩溃。病毒最初被误认为是一种普通的流感，但很快人们发现感染者会变成狂暴的、渴望血肉的丧尸。随着感染的蔓延，政府机构瘫痪，城市沦为废墟，幸存者们被迫在荒野和废弃的建筑中挣扎求生。\n\n核心宇宙观：病毒并非自然产生，而是由一家名为“新纪元生物科技”的公司秘密研发的生物武器。病毒不仅能将人类转化为丧尸，还能在极端环境下促使生物发生突变，产生各种恐怖的变异生物。\n\n历史时间线：\n1. 病毒爆发前：世界看似和平，科技高度发达，但贫富差距和社会矛盾日益加剧。\n2. 病毒爆发初期：政府试图掩盖真相，导致感染迅速扩散。\n3. 社会崩溃：军队和政府机构瓦解，幸存者开始自发组织抵抗或逃亡。\n4. 新秩序形成：幸存者分为多个派系，有的试图重建文明，有的则沦为掠夺者。\n\n社会结构：原有的社会秩序已不复存在，取而代之的是以生存为核心的部落式群体。资源稀缺导致暴力成为常态，道德和法律被弱化。\n\n主要派系：\n1. 幸存者联盟：由前政府官员和军人领导，试图重建秩序。\n2. 掠夺者：以暴力为手段，掠夺其他幸存者的资源。\n3. 新纪元信徒：崇拜病毒，认为它是人类进化的关键。\n4. 变异生物：受病毒影响的动物和人类，具有强大的攻击性。\n\n文化逻辑：生存是第一要务，信任成为奢侈品。科技和知识被视为宝贵的资源，但同时也可能带来危险。宗教和迷信在绝望中滋生，许多人相信病毒是神的惩罚或试炼。",
   "worldLife": [
     {
       "level": 0,
-      "name": "Fragile Life",
-      "description": "Newly turned zombies or severely wounded survivors, barely functional and easily dispatched."
+      "name": "脆弱生命",
+      "description": "包括垂死的幸存者、重伤的丧尸或即将崩溃的机器。它们在末日中几乎无法生存。"
     },
     {
       "level": 1,
-      "name": "Common Entity",
-      "description": "Basic zombies or unarmed civilians, posing minimal threat individually but dangerous in hordes."
+      "name": "普通实体",
+      "description": "普通的幸存者或丧尸，具有基本的意识和威胁性。他们是末日中最常见的存在。"
     },
     {
       "level": 2,
-      "name": "Trained Operative",
-      "description": "Survivors with combat training or enhanced zombies with rudimentary pack tactics."
+      "name": "训练有素的战士",
+      "description": "经过训练的幸存者或具有较高攻击性的丧尸，能够应对中等威胁。"
     },
     {
       "level": 3,
-      "name": "Elite Organic",
-      "description": "Special forces survivors or mutated zombies with heightened speed and strength."
+      "name": "精英生物",
+      "description": "体能达到巅峰的幸存者或变异丧尸，具有更强的战斗力和生存能力。"
     },
     {
       "level": 4,
-      "name": "Supernatural Threshold",
-      "description": "Mutants with viral-enhanced abilities like regeneration or psychic resonance."
+      "name": "超自然门槛",
+      "description": "通过病毒变异或科技改造获得超常能力的生物，如低阶变异兽或初级异能者。"
     },
     {
       "level": 5,
-      "name": "Area Influencer",
-      "description": "Hive-mind zombies or warlords with control over large survivor groups."
+      "name": "区域影响者",
+      "description": "能够改变战场局势或控制大片区域的强大存在，如高阶变异兽或异能者领袖。"
     },
     {
       "level": 6,
-      "name": "Domain Controller",
-      "description": "Mutant overlords or AI systems managing fortified cities or zombie hordes."
+      "name": "领域控制者",
+      "description": "能够操纵生态系统或指挥大量变异生物的存在，如变异兽王或异能者军团首领。"
     },
     {
       "level": 7,
-      "name": "Planet-Level Being",
-      "description": "Rogue AI networks or viral entities capable of global-scale manipulation."
+      "name": "行星级存在",
+      "description": "其行为足以影响整个星球生态或政治格局的存在，如失控的超级AI或终极变异体。"
     }
   ],
-  "playerBackground": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity.",
+  "playerBackground": "你是一名高中生，病毒爆发时正在学校上课。亲眼目睹老师和同学变成丧尸的恐怖场景让你心灵受创。在混乱中，你侥幸逃脱，但家人和朋友的下落不明。如今，你独自一人在废墟中求生，必须学会使用有限的资源和武器保护自己。内心的恐惧和孤独时常折磨着你，但求生的本能驱使你继续前进。你渴望找到其他幸存者，却又害怕再次失去。",
   "playerInfo": {
-    "name": "Morgan",
-    "gender": "Non-binary",
-    "age": 28,
-    "background": "A skinny programmer who survived the initial outbreak by barricading in a server farm, using tech skills to hack into surveillance systems and avoid detection. Haunted by the loss of colleagues who turned, they now seek a rumored AI core that could reverse the virus. Their motivation is a mix of guilt and hope, driven by the belief that their coding skills might be the key to saving what's left of humanity.",
-    "appearance": "Gaunt frame with sunken eyes, wearing cracked glasses and a frayed hoodie. Pale skin from years indoors, carrying a backpack jury-rigged with server cooling fans.",
-    "health": 115,
+    "name": "陈明",
+    "gender": "男",
+    "age": 17,
+    "background": "你是一名高中生，病毒爆发时正在学校上课。亲眼目睹老师和同学变成丧尸的恐怖场景让你心灵受创。在混乱中，你侥幸逃脱，但家人和朋友的下落不明。如今，你独自一人在废墟中求生，必须学会使用有限的资源和武器保护自己。内心的恐惧和孤独时常折磨着你，但求生的本能驱使你继续前进。你渴望找到其他幸存者，却又害怕再次失去。",
+    "appearance": "瘦高的身形裹在沾满灰尘的校服里，左肩有道结痂的抓痕。凌乱的黑发下是布满血丝的双眼，嘴唇因缺水而干裂，背着一个鼓胀的帆布书包。",
+    "health": 90,
     "lifeFormLevel": 1,
     "tag": [
-      "security-key-holder"
+      "高中生",
+      "心灵创伤",
+      "求生本能",
+      "敏捷反应",
+      "轻伤",
+      "近战基础"
     ],
-    "luck": 0.65
+    "luck": 0.6
   },
   "playerEquipment": [
     {
-      "name": "Hacked Datapad",
+      "name": "消防斧",
       "type": "Equipment",
-      "description": "Salvaged tablet modified to access pre-Fall security networks. Battery lasts 4 hours.",
-      "itemId": "1749889228424-791"
+      "description": "从学校消防柜抢出的斧头，刃口有崩缺但足够劈开丧尸头骨",
+      "itemId": "1749928263503-775"
     },
     {
-      "name": "Shock Rod",
-      "type": "Equipment",
-      "description": "Server rack conduit pipe with exposed wiring. Delivers painful but non-lethal jolts to attackers.",
-      "itemId": "1749889228424-355"
-    },
-    {
-      "name": "Nutrient Paste",
+      "name": "半瓶矿泉水",
       "type": "Consumable",
-      "description": "Three tubes of chalky survival rations scavenged from emergency lockers. Restores 15 health each.",
-      "itemId": "1749889228424-165"
+      "description": "只剩三分之一的水，瓶身布满裂痕",
+      "itemId": "1749928263503-827"
     },
     {
-      "name": "Security Override Key",
+      "name": "染血的地图",
       "type": "StoryItem",
-      "description": "Glowing biometric key granting access to Project Lazarus's core systems. The Ascendants would kill for this.",
-      "amount": 1
+      "description": "标记着城市撤离点的学生地图，背面有潦草写着的'去码头'",
+      "itemId": "1749928263503-139"
+    },
+    {
+      "name": "储物柜钥匙",
+      "type": "StoryItem",
+      "description": "从教师丧尸身上掉落，可以打开西侧储物柜，可能藏有生存资源。",
+      "amount": null
     }
   ],
   "scenes": [
     {
       "sceneId": 0,
-      "location": "Atlas Server Farm",
-      "description": "The decaying nerve center where Morgan survived the Fall. Dead servers hum with backup power, casting blue light on collapsed ceiling panels and the skeletal remains of coworkers.",
-      "time": "04:17 AM",
-      "weather": "Static-laced fog",
-      "terrain": "Collapsed server aisles",
-      "plot": "Morgan's hacked surveillance feed finally located Project Lazarus files - the AI core is active in Sector 7. As they disable the final door lock, Necro-X moans echo through ventilation shafts. Escape requires crossing the data hall where their colleagues turned.",
+      "location": "废弃教学楼三层走廊",
+      "description": "病毒爆发三天后的母校。走廊弥漫着血腥与腐臭，墙壁溅满褐红色污迹。散落的课本被踩进破碎的玻璃渣里，你从藏身的化学教室溜出，寻找食物和出路。",
+      "time": "黄昏",
+      "weather": "铅灰色阴云低压",
+      "terrain": "布满障碍物的室内走廊",
+      "plot": "远处传来拖沓的脚步声，你必须在天黑前穿过走廊到达楼梯间。公告栏贴着被撕掉一半的'感染者隔离通知'，地上有新鲜血迹指向西侧储物柜。",
       "interactiveItems": [
         {
-          "name": "Security Override Key",
-          "type": "StoryItem",
-          "description": "Admin lanyard on a decayed corpse. Bypasses biometric locks in pre-Fall facilities.",
-          "itemId": "1749889228424-314"
+          "name": "散落的急救包",
+          "type": "Consumable",
+          "description": "被撕开的红色塑胶盒，内剩两片止痛药和沾灰的绷带",
+          "itemId": "1749928263503-541"
         },
         {
-          "name": "Stim Injector",
-          "type": "Consumable",
-          "description": "Emergency medical syringe. Boosts movement speed but causes 10 health drain after 5 minutes.",
-          "itemId": "1749889228424-188"
+          "name": "卡住的储物柜",
+          "type": "StoryItem",
+          "description": "03号柜门微开，里面有金属反光，但需要工具撬开",
+          "itemId": "1749928263503-812"
         }
       ],
       "interactiveCreatures": [
         {
-          "name": "Shambler A",
-          "gender": "Other",
-          "age": 0,
+          "name": "教师丧尸",
+          "gender": "女",
+          "age": 42,
           "type": "Enemy",
           "fate": 0.9,
-          "appearance": "Tattered lab coat dragging exposed ribcage across coolant puddles",
+          "appearance": "穿着撕裂的西装套裙，脖颈缺失大块血肉，拖着一根断裂的教鞭",
           "behavior": "Hostile",
-          "description": "Former network engineer. Still clutches a corroded ID badge reading 'PROJECT LAZARUS ACCESS'.",
+          "description": "曾经的数学老师，如今只剩进食本能，在走廊东侧徘徊",
           "lifeFormLevel": 1,
-          "health": 80,
+          "health": 100,
           "visibleToPlayer": true,
-          "creatureId": "1749889228424-463"
+          "creatureId": "1749928263503-581"
         },
         {
-          "name": "Crawler B",
+          "name": "爬行变异体",
           "gender": "Other",
           "age": 0,
           "type": "Enemy",
           "fate": 0.4,
-          "appearance": "Limbless torso wedged under server rack, snapping teeth at ankle height",
+          "appearance": "脊柱扭曲凸起，四肢反关节爬行，嘴角滴落绿色黏液",
           "behavior": "Hostile",
-          "description": "Trapped during the outbreak. Necro-X mutation dissolved its lower body.",
-          "lifeFormLevel": 1,
-          "health": 40,
-          "visibleToPlayer": false,
-          "creatureId": "1749889228424-796"
-        },
-        {
-          "name": "Whisperer C",
-          "gender": "Other",
-          "age": 0,
-          "type": "Unknown",
-          "fate": 0.2,
-          "appearance": "Semi-translucent skin stretched over humming vocal cords",
-          "behavior": "Neutral",
-          "description": "Stage-2 infected. Emits frequency that disrupts other undead but causes migraines in humans.",
+          "description": "被病毒改造的学生尸体，潜伏在天花板通风管",
           "lifeFormLevel": 3,
-          "health": 60,
+          "health": 100,
           "visibleToPlayer": false,
-          "creatureId": "1749889228424-25"
+          "creatureId": "1749928263503-70"
         }
       ],
       "activeCreatures": [
         {
-          "name": "Shambler A",
-          "gender": "Other",
-          "age": 0,
+          "name": "教师丧尸",
+          "gender": "女",
+          "age": 42,
           "type": "Enemy",
           "fate": 0.9,
-          "appearance": "Tattered lab coat dragging exposed ribcage across coolant puddles",
+          "appearance": "穿着撕裂的西装套裙，脖颈缺失大块血肉，拖着一根断裂的教鞭",
           "behavior": "Hostile",
-          "description": "Former network engineer. Still clutches a corroded ID badge reading 'PROJECT LAZARUS ACCESS'.",
+          "description": "曾经的数学老师，如今只剩进食本能，在走廊东侧徘徊",
           "lifeFormLevel": 1,
-          "health": 80,
+          "health": 100,
           "visibleToPlayer": true,
-          "creatureId": "1749889228424-463"
+          "creatureId": "1749928263503-581"
         },
         {
-          "name": "Crawler B",
+          "name": "爬行变异体",
           "gender": "Other",
           "age": 0,
           "type": "Enemy",
           "fate": 0.4,
-          "appearance": "Limbless torso wedged under server rack, snapping teeth at ankle height",
+          "appearance": "脊柱扭曲凸起，四肢反关节爬行，嘴角滴落绿色黏液",
           "behavior": "Hostile",
-          "description": "Trapped during the outbreak. Necro-X mutation dissolved its lower body.",
-          "lifeFormLevel": 1,
-          "health": 40,
+          "description": "被病毒改造的学生尸体，潜伏在天花板通风管",
+          "lifeFormLevel": 3,
+          "health": 100,
           "visibleToPlayer": false,
-          "creatureId": "1749889228424-796"
+          "creatureId": "1749928263503-70"
         }
       ]
     },
     {
-      "plot": "Your fingers close around the Security Override Key just as decaying hands slam against the reinforced glass separating the control room from the data hall. The console flashes green—Project Lazarus protocols engaged. Distorted groans crescendo as your former colleagues shamble between server racks, their lab coats now burial shrouds. With the key secured, the exit door grinds open, but the path is blocked by six necrotic engineers. Suddenly, a ventilation shaft bursts open above, and a hairless, multi-jointed creature drops onto a zombie—a Vent Lurker drawn by the commotion. Its distraction creates a narrow path through the chaos.",
+      "plot": "你凭借敏捷反应，迅速接近教师丧尸，利用走廊的狭窄空间和随身武器猛击其头部。丧尸发出一声嘶吼后倒地，但攻击的声响在西侧储物柜方向引发金属刮擦声——一个扭曲的身影正试图挤出门缝。公告栏上的血迹似乎更加新鲜，远处拖沓的脚步声正逐渐逼近，迫使你加快行动。",
       "sceneId": 1,
-      "location": "Sector 7 Data Hall",
-      "description": "A cavernous server farm illuminated by emergency red lighting. Rows of dead terminals stretch into darkness, their screens reflecting shuffling shadows. Exposed cables snake across the floor like roots, and the stench of腐肉 (fǔ ròu - rotting flesh) hangs thick.",
-      "time": "Night",
-      "weather": "Indoor Stasis",
-      "terrain": "Industrial Ruins",
+      "location": "走廊",
+      "description": "废弃的学校走廊，墙壁上贴着残缺的感染者隔离通知，地上血迹斑斑，腐臭味弥漫。西侧储物柜门半开，金属摩擦声持续传来。",
+      "time": "黄昏",
+      "weather": "阴天",
+      "terrain": "城市废墟",
       "interactiveItems": [
         {
-          "name": "Broken Terminal",
-          "type": "Junk",
-          "description": "Shattered console leaking coolant. Salvageable for basic electronics scrap.",
-          "itemId": "1749889791467-384"
-        },
-        {
-          "name": "Emergency Medkit (Empty)",
-          "type": "Junk",
-          "description": "Ransacked container with only torn packaging and broken syringes inside.",
-          "itemId": "1749889791467-105"
-        },
-        {
-          "name": "Data Tape: Lazarus Subject Zero",
+          "name": "储物柜钥匙",
           "type": "StoryItem",
-          "description": "Corrupted biometric logs showing viral mutation thresholds. Could be deciphered.",
-          "itemId": "1749889791467-511"
+          "description": "可以打开西侧储物柜，可能藏有生存资源。",
+          "itemId": "1749929660310-854"
+        },
+        {
+          "name": "感染者通知残片",
+          "type": "StoryItem",
+          "description": "公告栏上撕下的部分，记录着病毒爆发初期的隔离措施，可能提供线索。",
+          "itemId": "1749929660310-589"
         }
       ],
       "interactiveCreatures": [
         {
-          "name": "Engineer Zombie A",
-          "gender": "Male",
-          "age": 40,
-          "type": "Enemy",
-          "fate": 0.9,
-          "appearance": "Rotting in tattered lab coat, jaw hanging by tendons",
-          "behavior": "Hostile",
-          "description": "Former systems analyst now fixated on warm flesh",
-          "lifeFormLevel": 2,
-          "health": 100,
-          "visibleToPlayer": true,
-          "creatureId": "1749889791468-456"
-        },
-        {
-          "name": "Engineer Zombie B",
-          "gender": "Female",
-          "age": 32,
-          "type": "Enemy",
-          "fate": 0.7,
-          "appearance": "Missing left arm, dragging a severed server cable",
-          "behavior": "Hostile",
-          "description": "Bio-containment specialist turned viral vector",
-          "lifeFormLevel": 2,
-          "health": 100,
-          "visibleToPlayer": true,
-          "creatureId": "1749889791468-403"
-        },
-        {
-          "name": "Vent Lurker",
+          "name": "变异清洁工丧尸A",
           "gender": "Other",
-          "age": 3,
+          "age": 0,
           "type": "Enemy",
-          "fate": 0.6,
-          "appearance": "Albino skin stretched over elongated limbs, no visible eyes",
+          "fate": 0.8,
+          "appearance": "身穿破烂清洁工制服，手臂异常粗大且覆盖脓疱，眼睛泛着红光。",
           "behavior": "Hostile",
-          "description": "Necro-X mutation adapted to duct systems. Hunts by vibration.",
+          "description": "受病毒变异的清洁工，更具攻击性，对声音极度敏感。",
           "lifeFormLevel": 4,
           "health": 100,
           "visibleToPlayer": true,
-          "creatureId": "1749889791468-578"
-        },
-        {
-          "name": "Whisperer",
-          "gender": "Female",
-          "age": 28,
-          "type": "Unknown",
-          "fate": 0.3,
-          "appearance": "Glowing veins beneath intact Remnant uniform",
-          "behavior": "Neutral",
-          "description": "Stands motionless behind server rack, murmuring binary code",
-          "lifeFormLevel": 5,
-          "health": 100,
-          "visibleToPlayer": false,
-          "creatureId": "1749889791468-767"
+          "creatureId": "1749929660310-823"
         }
       ]
     }
   ],
   "gameOver": false,
   "history": [
-    "\nYou discovered Shambler A",
-    "\nYou discovered Crawler B",
-    "> To take Security Override Key \n\n(You gained: Security Override Key, Glowing biometric key granting access to Project Lazarus's core systems. The Ascendants would kill for this.)\n(You suffered loss: The surge of near-death exertion leaves you trembling and unfocused.) "
+    "\nYou discovered 教师丧尸",
+    "\nYou discovered 爬行变异体",
+    "> 攻击教师丧尸 \n\n(You gained: 储物柜钥匙, 从教师丧尸身上掉落，可以打开西侧储物柜，可能藏有生存资源。)\n(You suffered loss: 攻击过程中被教师丧尸抓伤手臂，造成轻微感染风险。) "
   ],
   "plotRecords": [
-    "Morgan's hacked surveillance feed finally located Project Lazarus files - the AI core is active in Sector 7. As they disable the final door lock, Necro-X moans echo through ventilation shafts. Escape requires crossing the data hall where their colleagues turned.",
-    "\nYour fingers close around the Security Override Key just as decaying hands slam against the reinforced glass separating the control room from the data hall. The console flashes green—Project Lazarus protocols engaged. Distorted groans crescendo as your former colleagues shamble between server racks, their lab coats now burial shrouds. With the key secured, the exit door grinds open, but the path is blocked by six necrotic engineers. Suddenly, a ventilation shaft bursts open above, and a hairless, multi-jointed creature drops onto a zombie—a Vent Lurker drawn by the commotion. Its distraction creates a narrow path through the chaos."
+    "远处传来拖沓的脚步声，你必须在天黑前穿过走廊到达楼梯间。公告栏贴着被撕掉一半的'感染者隔离通知'，地上有新鲜血迹指向西侧储物柜。",
+    "\n你凭借敏捷反应，迅速接近教师丧尸，利用走廊的狭窄空间和随身武器猛击其头部。丧尸发出一声嘶吼后倒地，但攻击的声响在西侧储物柜方向引发金属刮擦声——一个扭曲的身影正试图挤出门缝。公告栏上的血迹似乎更加新鲜，远处拖沓的脚步声正逐渐逼近，迫使你加快行动。"
   ]
 }
